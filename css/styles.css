@@ -1,6 +1,6 @@
 /* Colours */
 :root {
-  --yellow: #FDCF00;
+  --yellow: #FFDD71;
   --blue: #0E77D2;
   --darkblue: #005B90;
   --darkestgrey: #252525;
@@ -14,20 +14,23 @@ body{
   background: white;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 h1{
   font-family: 'Roboto', sans-serif;
+  font-weight: 200;
   font-size: 4.75em;
-  line-height: 1.2;
+  line-height: 1;
+  margin: 64px 0 24px 80px;
 }
 
 h2{
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 3em;
-  line-height: 1.2;
-  margin: 0;
+  line-height: 1;
+  margin: 0 0 0 80px;
 }
 
 h3{
@@ -173,12 +176,6 @@ blockquote{
     display: flex;
     justify-content: space-between;
   }
-  .header .headerInset .external a{
-    color: var(--grey);
-  }
-  .header .site{
-    border-top: solid 1px var(--grey);
-  }
 }
 
 @media only screen and (max-width: 890px) {
@@ -219,32 +216,22 @@ blockquote{
 }
 
 .header .branding img.full-logo{
-  height: 30px;
+  height: 80px;
 }
 
 .header .branding img.mini-logo{
-  height: 30px;
+  height: 50px;
 }
 
 .header .headerInset{
   align-items: center;
-  padding: 20px 30px 10px 30px;
-}
-
-.header .headerInset .external a{
-  font-family: blender-bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: 0 0 0 20px;
-}
-
-.header .headerInset .external a:hover{
-  color: var(--yellow);
+  padding: 40px 40px 20px 40px;
 }
 
 
 @media only screen and (min-width: 891px) {
 .header .site .unlist{
+  margin-left: 30px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -270,7 +257,7 @@ blockquote{
 
 @media only screen and (min-width: 891px) {
 .header .site .unlist .active{
-  border-bottom: 4px solid var(--blue);
+  border-bottom: 4px solid var(--yellow);
   padding-bottom: 3px;
   }
 .header .site .unlist .emphasis{
