@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="589px" height="562px" viewBox="0 0 589 562" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>learn-collaborate</title>
+    <desc>Created with Sketch.</desc>
+    <g id="learn-collaborate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M395.725728,356.717544 C352.224926,387.580858 322.528751,436.62429 317.711316,492.773726 C258.612841,465.453429 216.239634,408.046104 210.190706,340.173135 C234.041567,329.063503 260.633823,322.860786 288.673149,322.860786 C328.517355,322.860786 365.43953,335.38577 395.725723,356.717547 Z" id="Combined-Shape" fill="#FDCF00" fill-rule="nonzero" transform="translate(302.958217, 407.817256) scale(-1, -1) rotate(60.000000) translate(-302.958217, -407.817256) "></path>
+        <path d="M220.909316,354.073646 C223.09956,330.317092 230.142521,306.617573 242.450583,284.413241 C255.404846,261.043133 272.854479,241.741531 293.12271,226.989243 C337.028237,256.713958 363.89812,303.441517 369.755686,353.303606 C346.907605,364.014909 321.402749,370 294.5,370 C268.248913,370 243.328816,364.30135 220.909304,354.073641 Z" id="Combined-Shape" fill="#FDCF00" fill-rule="nonzero"></path>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="192.5" cy="369.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="396.5" cy="369.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="294.5" cy="192.5" r="177.5"></circle>
+    </g>
+</svg>

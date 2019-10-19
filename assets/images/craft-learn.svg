@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="579px" height="552px" viewBox="0 0 579 552" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>craft-learn</title>
+    <desc>Created with Sketch.</desc>
+    <g id="craft-learn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M289.7905,220.215584 C248.222213,249.453301 219.76826,296.078848 215,349.520866 C158.923215,323.430318 118.748579,268.908438 113,204.479134 C135.728876,193.904191 161.070187,188 187.790495,188 C225.753066,188 260.932132,199.917596 289.790495,220.215587 Z" id="Combined-Shape" fill="#FDCF00" fill-rule="nonzero"></path>
+        <circle id="Oval" stroke="#000000" stroke-width="20" fill-rule="nonzero" cx="187.5" cy="364.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="20" fill-rule="nonzero" cx="391.5" cy="364.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="20" fill-rule="nonzero" cx="289.5" cy="187.5" r="177.5"></circle>
+    </g>
+</svg>

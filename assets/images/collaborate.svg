@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="589px" height="562px" viewBox="0 0 589 562" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>collaborate</title>
+    <desc>Created with Sketch.</desc>
+    <g id="collaborate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M634.133501,493.894747 C611.404625,483.319804 586.063314,477.415613 559.343005,477.415613 C521.380437,477.415613 486.201372,489.333208 457.34301,509.631197 C428.484642,489.333209 393.305575,477.415613 355.343005,477.415613 C328.622697,477.415613 303.281386,483.319804 280.55251,493.894747 C280.082874,488.631127 279.843005,483.301382 279.843005,477.915613 C279.843005,379.88507 359.312462,300.415613 457.343005,300.415613 C555.373548,300.415613 634.843005,379.88507 634.843005,477.915613 C634.843005,483.301382 634.603137,488.631127 634.133501,493.894747 Z" id="Combined-Shape" fill="#FDCF00" fill-rule="nonzero" transform="translate(457.343005, 405.023405) rotate(120.000000) translate(-457.343005, -405.023405) "></path>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="192.5" cy="369.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="396.5" cy="369.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="294.5" cy="192.5" r="177.5"></circle>
+    </g>
+</svg>

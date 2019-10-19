@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="589px" height="562px" viewBox="0 0 589 562" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>learn</title>
+    <desc>Created with Sketch.</desc>
+    <g id="learn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M307.133501,498.894747 C284.404625,488.319804 259.063314,482.415613 232.343005,482.415613 C194.380437,482.415613 159.201372,494.333208 130.34301,514.631197 C101.484642,494.333209 66.3055754,482.415613 28.3430053,482.415613 C1.62269672,482.415613 -23.7186143,488.319804 -46.4474901,498.894747 C-46.9171264,493.631127 -47.1569947,488.301382 -47.1569947,482.915613 C-47.1569947,384.88507 32.3124622,305.415613 130.343005,305.415613 C228.373548,305.415613 307.843005,384.88507 307.843005,482.915613 C307.843005,488.301382 307.603137,493.631127 307.133501,498.894747 Z" id="Combined-Shape" fill="#FDCF00" fill-rule="nonzero" transform="translate(130.343005, 410.023405) scale(-1, 1) rotate(120.000000) translate(-130.343005, -410.023405) "></path>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="192.5" cy="369.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="396.5" cy="369.5" r="177.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="30" fill-rule="nonzero" cx="294.5" cy="192.5" r="177.5"></circle>
+    </g>
+</svg>
