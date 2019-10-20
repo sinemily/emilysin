@@ -97,10 +97,10 @@ h2{
 @media only screen and (max-width: 655px) {
   h1{
     text-align: center;
-    font-size: 4.25em;
+    font-size: 4em;
   }
   h2{
     text-align: center;
-    font-size: 2.25em;
+    font-size: 2em;
   }
 }
