@@ -1,7 +1,15 @@
 /* Utilities */
-.container{
-  margin: 80px 104px;
-  max-width: 1200px;
+@media only screen and (max-width: 655px) {
+  .container{
+    margin: 80px 40px;
+  }
+}
+
+@media only screen and (min-width: 656px) {
+  .container{
+    margin: 80px 104px;
+    max-width: 1200px;
+  }
 }
 
 .unlist{
@@ -97,10 +105,10 @@ h2{
 @media only screen and (max-width: 655px) {
   h1{
     text-align: center;
-    font-size: 4em;
+    font-size: 4.25em;
   }
   h2{
     text-align: center;
-    font-size: 2em;
+    font-size: 2.25em;
   }
 }
