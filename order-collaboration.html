@@ -34,15 +34,104 @@
       <h4 class="expand">+ more context</h4>
       <p>Most of the everyday products we own started out the same way - they originated from a Purchase Order. A purchase order is commercial document issued by a buyer to a seller indicating types, quantities, and agreed prices for products or services. Usually, the buyer is a brand with its own line of products or services. For example, the brand that makes your favourite shampoo that’s currently sitting in your shower caddy. The seller is also known as the supplier. The supplier is responsible for manufacturing and fulfilling the order to the specifications detailed in the purchase order.</p>
       <p>The brand and supplier need to agree on the exact products and the quantity and price for each product requested. There can be multiple products requested on a single purchase order. You can think of each unique combination of product code, quantity and unit price on the purchase order as a Line Item.</p>
+
       <h4>Solution</h4>
       <p>Order Collaboration removes the reliance on manual tracking and updating of Purchase Order information over disjointed documents and spreadsheets by allowing brands and suppliers to collaborate on one platform.</p>
       <h5>Surface the most urgent information first</h5>
       <p>The table is by default sorted by status, so planners can focus on the Purchase Orders that require the most immediate action first.</p>
-      
+      <img src="assets/images/po-table.png" alt="PO table" />
+      <h5>Make it easy to collaborate</h5>
+      <p>Suppliers can easily make proposals on requests from the Brand.</p>
+      <img src="assets/images/supplier-details.png" alt="Supplier Details" />
+      <img src="assets/images/supplier-make-proposal.png" alt="Supplier Making a Proposal" />
+      <h5>Account for varied volume</h5>
+      <p>Line Items can be accepted or cancelled individually, or in bulk. This scales whether you are managing 2 line items or 100 line items.</p>
+      <img src="assets/images/brand-actions.png" alt="Brand Available Actions" />
+      <h5>Highlight incremental changes</h5>
+      <p>The most recent changes are emphasized on both the brand and supplier side. The user can quickly identify what has been modified since they last sent the Purchase Order.</p>
+      <img src="assets/images/brand-highlight-proposal.png" alt="Proposal Highlights" />
+      <h5>Design for auditability</h5>
+      <p>The history log keeps a record of all changes to the Purchase Order, making it easy to trace actions back to a user.</p>
+      <img src="assets/images/brand-history.png" alt="History Log" />
 
+      <h4>My role</h4>
+      <p>I was the sole product designer a team comprising of a Product Manager, Product Designer (me!), 4 Developers, and 1 Agile Tester.</p>
+      <h4>Tools</h4>
+      <div class="tools">
+        <img src="assets/images/sketch.png" alt="Sketch" />
+        <img src="assets/images/abstract.png" alt="Abstract" />
+        <img src="assets/images/whimsical.png" alt="Whimsical" />
+        <img src="assets/images/invision.png" alt="Invision" />
+      </div>
 
+      <h4>Approach</h4>
+      <h5>Build a shared understanding by collaborating early in the process</h5>
+      <p>One of the first things we did was run an <a href="https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d" target="blank">example mapping</a>
+        session with the team. This created early team-wide alignment and the multidisciplinary perspective allowed us to identify behaviours and use cases that if missed, would have led to re-work further into the design process.</p>
+      <h5>Validate quickly, and early on</h5>
+      <p>I spent two weeks with a design co-op sketching out our ideas and validating them with former Brand Planners that now worked at our company. We spent several hours each day together sorting out the workflow and bouncing ideas off each other. At the end of the two weeks, we showed them our sketches and made adjustments based on the feedback.</p>
 
+      <h4>Phase 1: Define</h4>
+      <h5>Who are the key players and what are they trying to accomplish?</h5>
+      <h4>+ view questions</h4>
+      <ol>
+        <li>Can you describe how you spend a typical day or week?</li>
+        <li>Which activities do you spend the most time on?</li>
+        <li>What is/are your worst pain point(s)?</li>
+        <li>What kind of reports or documentation do you work with to negotiate on orders with your customers?</li>
+        <li>Who do you usually communicate with on the customer side? What input do you need from them to either generate or modify the documentation?</li>
+      </ol>
+      <p>Using the responses from the interviews, I generated personas by narrowing down the findings into three categories using the
+        <a href="https://designabetterbusiness.com/2017/10/12/how-to-really-understand-your-customer-with-the-value-proposition-canvas/" target="blank">job-to-be-done, pains, and gains</a> value proposition.</p>
+      <h5>How can we help our users accomplish their goals?</h5>
+      <p>After defining the brand and supplier personas, I created a workflow to capture how both supplier and brand would collaborate together.</p>
+      <img src="assets/images/mobile-workflow.png" alt="Workflow" />
+      <img src="assets/images/desktop-workflow.png" alt="Workflow" />
+
+      <h4>Phase 2: Ideate</h4>
+      <h5>Information Density</h5>
+      <p>When we ran our initial validation with the paper prototypes, we experimented with Purchase Order details in a modal and in a slide out side panel.</p>
+      <img src="assets/images/paper-modal.png" alt="Modal Sketch" />
+      <img src="assets/images/paper-side-panel.png" alt="Side Panel Sketch" />
+      <p>However, our requirements changed partway through the design process – users needed to specify multiple line items on a Purchase Order, instead of just one. I opted to move the information to a new page, to allow for more real estate to manage this information.</p>
+      <img src="assets/images/paper-new-page.png" alt="Full Page Sketch" />
+      <h5>Actionable Language</h5>
+      <p>Capturing the status of a Purchase Order was key for users to understand which party needed to action on a Purchase Order. We initially approached the naming of statuses from by describing the actions taken on the Purchase Order, using terms like “modified by supplier” and “modified by brand”.</p>
+      <img src="assets/images/paper-statuses.png" alt="Statuses Sketch" />
+      <p>However, after validation with the Brand Planners, we discovered the naming was not resonating with them. Planners have an endless to-do list and are therefore constantly under pressure to ensure deadlines are met. The passive language used did not convey urgency to act on the Purchase Orders. We refined the language to encourage action and rather tell the planners what needed to be done. We settled on the following statuses listed in order of highest priority first: Requires Response, Pending Response, Accepted, Canceled.</p>
+
+      <h4>Phase 3: Prototype and Test</h4>
+      <h5>Blanket “Reject” button</h5>
+      <p>To test the overall usability with suppliers, I designed a task walkthrough that simulated the supplier receiving a Purchase Order from the brand, and asked the supplier to complete a series of tasks to successfully respond to the Purchase Order. One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals.</p>
+      <img src="assets/images/supplier-reject-test.png" alt="Reject Button User Test" />
+      <p>Upon further investigation, I discovered that suppliers will almost never reject a Purchase Order, instead working with the Brand to agree on terms. I removed the reject button in later tests and noticed that the success rate for the suppliers to find and make proposals jumped to 100%.</p>
+      <h5>Cancel vs. Delete</h5>
+      <p>If the brand changes their mind about a line item that has already been shared with a supplier, they can cancel the line item on the Purchase Order. Cancelled line items are not technically “deleted” because they are still displayed for historical purposes on the Purchase Order. Since “cancel” is not an action that can be easily represented in an icon, I tested the use of the trash icon, a “cancel” type icon, or just the word “cancel”. I wanted to see if the users’ expectations aligned with the intended behaviour. I was exploring the use of an icon to save space for in-line behaviour.</p>
+      <img src="assets/images/cancel-test.png" alt="Cancel Button User Test" />
+      <p>The issue with the trash icon is users thought it would remove the line item from the page completely. The cancel icon caused confusion because the icon was too ambiguous. Using just the “cancel” word resulted in successful task completion and understanding every time, which made my choice very clear.</p>
+      <hr>
     </main>
+
+    <footer>
+      <h6>more projects</h6>
+      <a href="">
+          <img src="assets/images/csv-square.png"/>
+      </a>
+      <a href="">
+          <img src="assets/images/inventory-square.png"/>
+      </a>
+
+      <h6>contact</h6>
+      <a href="">
+          <img src="assets/images/email.png"/><p>emily.w.sin@gmail.com</p>
+      </a>
+      <a href="https://www.youtube.com/emilysin" target="blank">
+          <img src="assets/images/youtube.png"/><p>www.youtube.com/emilysin</p>
+      </a>
+      <a href="https://www.linkedin.com/in/emilysin/" target="blank">
+          <img src="assets/images/linkedin.png"/><p>www.linkedin.com/in/emilysin/</p>
+      </a>
+    </footer>
 
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/main.js"></script>

@@ -1,0 +1,74 @@
+/* Utilities */
+.container{
+  margin: 80px 104px;
+  max-width: 1200px;
+}
+
+.unlist{
+  list-style: none;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Header */
+.header .branding img.logo{
+  height: 80px;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header .site ol.unlist{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 32px;
+}
+
+.header .site .unlist li a{
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  margin-right: 40px;
+  color: black;
+}
+
+.header .site .unlist li a.active{
+  border-bottom: 4px solid;
+  padding-bottom: 3px;
+}
+
+.header .site .unlist li a:hover{
+  color: grey;
+}
+
+/* Body */
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+  margin: 104px 0 20px;
+  font-weight: 200;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 1px;
+}
