@@ -1,11 +1,26 @@
 /*Overview*/
+.overview .content .main-button {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 80px auto;
+  display: block;
+  height: 200px;
+  width: 560px;
+  padding-left: 40px;
+  box-shadow: 0px 3px 8px 2px var(--lightgrey);
+}
+
+.overview .content .main-button:hover {
+  box-shadow: 0px 3px 10px 4px var(--lightgrey);
+}
+
+.overview .content .main-button .main-image {
+  height: 88px;
+  display: block;
+}
+
 @media only screen and (max-width: 890px) {
-  .overview .content .column img{
-    display: block;
-    width: 80vw;
-    max-width: 500px;
-    margin: 0 auto;
-  }
   .overview .content .column p{
     padding: 20px 0;
   }
@@ -25,18 +40,6 @@
     max-width: 1000px;
     min-width: 600px;
   }
-}
-
-.overview .backgrounds .midRightGrid{
-  display: none;
-}
-
-.overview .backgrounds .bottomRightGrid{
-  display: none;
-}
-
-.overview .backgrounds .bottomRightBox{
-  display: none;
 }
 
 /* Craft */

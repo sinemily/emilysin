@@ -26,7 +26,7 @@ h1{
   font-weight: 200;
   font-size: 4.75em;
   line-height: 1;
-  margin: 64px 0 24px 80px;
+  margin: 64px 0 24px 0;
 }
 
 h2{
@@ -34,7 +34,8 @@ h2{
   font-weight: 400;
   font-size: 3em;
   line-height: 1;
-  margin: 0 0 0 80px;
+  margin: 0;
+  padding-bottom: 40px;
 }
 
 h3{
@@ -221,6 +222,8 @@ blockquote{
 
 .header .branding img.full-logo{
   height: 80px;
+  padding-right: 10px;
+  padding-bottom: 0;
 }
 
 .header .branding img.mini-logo{
@@ -229,7 +232,7 @@ blockquote{
 
 .header .headerInset{
   align-items: center;
-  padding: 40px 40px 20px 40px;
+  padding: 80px 80px 20px 80px;
 }
 
 
@@ -271,6 +274,8 @@ blockquote{
   }
 .header .site .unlist li a{
   margin-right: 40px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
   }
 .header .site .unlist .emphasis a{
   color: white;
