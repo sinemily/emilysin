@@ -5,7 +5,7 @@
 }
 
 .work .content .circles{
-  margin-top: 160px;
+  margin-top: 96px;
   display: flex;
 }
 
@@ -24,7 +24,7 @@
 
 .work .content .circles img.main-circle{
   height: 250px;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .work .content .circles img:hover{
