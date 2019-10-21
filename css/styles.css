@@ -7,8 +7,9 @@
 
 @media only screen and (min-width: 656px) {
   .container{
-    margin: 80px 104px;
-    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 80px;
+    max-width: 850px;
   }
 }
 

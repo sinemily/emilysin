@@ -1,9 +1,4 @@
 /* Work */
-.work .content{
-  margin: 0 auto;
-  max-width: 850px;
-}
-
 .work .content .circles{
   margin-top: 96px;
   display: flex;
