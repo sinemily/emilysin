@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="369px" viewBox="0 0 369 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>inventory-management</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="172.8" cy="172.8" r="172.8"></circle>
+        <filter x="-5.9%" y="-4.5%" width="111.9%" height="111.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.554177989   0 0 0 0 0.554177989   0 0 0 0 0.554177989  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inventory-management" transform="translate(12.000000, 7.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#D59F33" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-7" transform="translate(64.800000, 52.800000)">
+                <text id="Inventory-Management" font-family="Roboto-Light, Roboto" font-size="33.6" font-weight="300" fill="#FFFFFF">
+                    <tspan x="41.0730469" y="31">Inventory </tspan>
+                    <tspan x="11.2464844" y="70">Management</tspan>
+                </text>
+                <text id="Nulogy-•-2019" font-family="Roboto-Light, Roboto" font-size="19.2" font-weight="300" fill="#FFFFFF">
+                    <tspan x="43.1578125" y="234">NULOGY • 2019 </tspan>
+                </text>
+                <g id="warehouse-with-colour" transform="translate(62.400000, 99.600000)" stroke="#FFFFFF">
+                    <g id="warehouse" transform="translate(0.000000, 0.496875)">
+                        <path d="M1.19941382,25.6513906 L45.6,0 L45.6,0 L90.0005862,25.6513906 C90.7428184,26.0801978 91.2,26.8723175 91.2,27.7295131 L91.2,81.6 C91.2,82.9254834 90.1254834,84 88.8,84 L2.4,84 C1.0745166,84 -1.16994273e-15,82.9254834 0,81.6 L0,27.7295131 C-9.93154602e-16,26.8723175 0.457181586,26.0801978 1.19941382,25.6513906 Z" id="Rectangle" stroke-width="3" stroke-linejoin="round"></path>
+                        <rect id="Rectangle" stroke-width="3" stroke-linejoin="round" x="12" y="28.8" width="67.2" height="7.2"></rect>
+                        <line x1="15.6" y1="37.2" x2="15.6" y2="82.8" id="Line" stroke-width="3" stroke-linecap="square"></line>
+                        <line x1="75.6" y1="37.2" x2="75.6" y2="46.8" id="Line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="75.6" y1="54" x2="75.6" y2="82.8" id="Line" stroke-width="3" stroke-linecap="round"></line>
+                        <g id="Group-5" transform="translate(15.600000, 64.800000)" stroke-width="2.4">
+                            <rect id="Rectangle" stroke-linejoin="round" x="0" y="0" width="21.6" height="19.2"></rect>
+                            <rect id="Rectangle" stroke-linejoin="round" x="7.2" y="0" width="7.2" height="9.6"></rect>
+                            <line x1="7.2" y1="14.4" x2="14.4" y2="14.4" id="Line-2" stroke-linecap="round"></line>
+                        </g>
+                        <g id="Group-5" transform="translate(37.200000, 64.800000)" stroke-width="2.4">
+                            <rect id="Rectangle" stroke-linejoin="round" x="0" y="0" width="21.6" height="19.2"></rect>
+                            <rect id="Rectangle" stroke-linejoin="round" x="7.2" y="0" width="7.2" height="9.6"></rect>
+                            <line x1="7.2" y1="14.4" x2="14.4" y2="14.4" id="Line-2" stroke-linecap="round"></line>
+                        </g>
+                        <g id="Group-5" transform="translate(15.600000, 45.600000)" stroke-width="2.4">
+                            <rect id="Rectangle" stroke-linejoin="round" x="0" y="0" width="21.6" height="19.2"></rect>
+                            <rect id="Rectangle" stroke-linejoin="round" x="7.2" y="0" width="7.2" height="9.6"></rect>
+                            <line x1="7.2" y1="14.4" x2="14.4" y2="14.4" id="Line-2" stroke-linecap="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

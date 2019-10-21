@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="369px" viewBox="0 0 369 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>csv-imports</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="172.8" cy="172.8" r="172.8"></circle>
+        <filter x="-5.9%" y="-4.5%" width="111.9%" height="111.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.552941176   0 0 0 0 0.552941176   0 0 0 0 0.552941176  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="csv-imports" transform="translate(12.000000, 7.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#B67474" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-7" transform="translate(64.800000, 52.800000)">
+                <text id="CSV-Imports" font-family="Roboto-Light, Roboto" font-size="33.6" font-weight="300" fill="#FFFFFF">
+                    <tspan x="77.9789062" y="31">CSV</tspan>
+                    <tspan x="51.5648438" y="70">Imports</tspan>
+                </text>
+                <g id="csv-with-colour" transform="translate(74.400000, 96.000000)">
+                    <g id="csv">
+                        <g id="Group-3" transform="translate(4.800000, 0.000000)" stroke="#FFFFFF" stroke-width="3">
+                            <path d="M46.994268,0 C47.6376521,-1.03322396e-14 48.254096,0.258323865 48.7052682,0.717003141 L67.2,19.5194679 L67.2,79.2 C67.2,80.5254834 66.1254834,81.6 64.8,81.6 L2.4,81.6 C1.0745166,81.6 -7.25853519e-16,80.5254834 0,79.2 L0,52.8 L43.3423544,52.8 C43.7792901,52.8 44.2067051,52.6807469 44.579153,52.4567785 L44.7352756,52.3544233 C45.8146738,51.5851341 46.0660668,50.0864769 45.2967777,49.0070787 L45.2967777,49.0070787 L39.4475767,40.8 L45.2967777,32.5929213 C45.5865953,32.1862749 45.7423544,31.6993551 45.7423544,31.2 C45.7423544,29.8745166 44.6678378,28.8 43.3423544,28.8 L43.3423544,28.8 L0,28.799 L0,2.4 C-6.0641411e-16,1.0745166 1.0745166,-1.53286949e-15 2.4,0 L46.994268,0 Z" id="Combined-Shape"></path>
+                            <polygon id="Triangle" stroke-linejoin="round" points="48 0 67.2 19.5194679 48 19.5194679"></polygon>
+                        </g>
+                        <path d="M2.4,28.8 L48.1423544,28.8 C49.4678378,28.8 50.5423544,29.8745166 50.5423544,31.2 C50.5423544,31.6993551 50.3865953,32.1862749 50.0967777,32.5929213 L44.2475767,40.8 L44.2475767,40.8 L50.0967777,49.0070787 C50.8660668,50.0864769 50.6146738,51.5851341 49.5352756,52.3544233 C49.1286293,52.6442409 48.6417094,52.8 48.1423544,52.8 L2.4,52.8 C1.0745166,52.8 2.38277095e-15,51.7254834 0,50.4 L0,31.2 C2.8176431e-16,29.8745166 1.0745166,28.8 2.4,28.8 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="3"></path>
+                        <text id="CSV" font-family="Rubik-Light, Rubik" font-size="19.2" font-weight="300" fill="#FFFFFF">
+                            <tspan x="4.8" y="48">CSV</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Nulogy-•-2019" font-family="Roboto-Light, Roboto" font-size="19.2" font-weight="300" fill="#FFFFFF">
+                    <tspan x="43.1578125" y="234">NULOGY • 2019 </tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

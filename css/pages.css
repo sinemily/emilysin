@@ -24,6 +24,9 @@
 
 .work .content .circles img.main-circle{
   height: 250px;
+}
+
+.work .content .circles a{
   padding-bottom: 32px;
 }
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="369px" viewBox="0 0 369 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>order-collaboration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="172.8" cy="172.8" r="172.8"></circle>
+        <filter x="-5.9%" y="-4.5%" width="111.9%" height="111.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.552941176   0 0 0 0 0.552941176   0 0 0 0 0.552941176  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="order-collaboration" transform="translate(12.000000, 7.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#D8AC9B" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <text id="Order-Collaboration" font-family="Roboto-Light, Roboto" font-size="33.6" font-weight="300" fill="#FFFFFF">
+                <tspan x="133.3125" y="83.8">Order </tspan>
+                <tspan x="75.9808594" y="122.8">Collaboration</tspan>
+            </text>
+            <g id="Group-8" transform="translate(115.000000, 149.000000)" stroke="#FFFFFF">
+                <circle id="Oval" stroke-width="3" cx="21.025641" cy="18.9230769" r="18.9230769"></circle>
+                <path d="M0,82 C0.355790868,64.8236963 2.45835497,54.3108758 6.30769231,50.4615385 C10.5128205,46.2564103 17.7006115,46.2564103 21.025641,46.2564103 C25.1024045,46.2564103 31.5384615,46.2564103 35.7435897,50.4615385 C39.3785997,54.0965485 41.4811638,64.609369 42.0512821,82" id="Line-6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" stroke-width="3" cx="94.6153846" cy="18.9230769" r="18.9230769"></circle>
+                <path d="M73.5897436,82 C73.9455345,64.8236963 76.0480986,54.3108758 79.8974359,50.4615385 C84.1025641,46.2564103 91.2903551,46.2564103 94.6153846,46.2564103 C98.6921481,46.2564103 105.128205,46.2564103 109.333333,50.4615385 C112.968343,54.0965485 115.070907,64.609369 115.641026,82" id="Line-6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Line-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="48.3589744 38.8974359 67.2820513 38.8974359 64.1282051 33.6410256"></polyline>
+                <polyline id="Line-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(57.820513, 46.782051) scale(-1, -1) translate(-57.820513, -46.782051) " points="48.3589744 49.4102564 67.2820513 49.4102564 64.1282051 44.1538462"></polyline>
+            </g>
+            <text id="Nulogy-•-2019" font-family="Roboto-Light, Roboto" font-size="19.2" font-weight="300" fill="#FFFFFF">
+                <tspan x="107.957813" y="286.8">NULOGY • 2019 </tspan>
+            </text>
+        </g>
+    </g>
+</svg>
