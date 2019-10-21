@@ -1,7 +1,16 @@
 /* Work */
 .work .content .circles{
-  margin-top: 96px;
   display: flex;
+  padding-top: 100px;
+  border-top: 1px solid grey;
+}
+
+.work .content p{
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: black;
+  margin-top: 300px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -14,6 +23,14 @@
 @media only screen and (min-width: 1101px) {
   .work .content .circles{
     justify-content: space-between;
+  }
+  .work .content .name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .work .content .name h2{
+    padding-left: 16px;
   }
 }
 
