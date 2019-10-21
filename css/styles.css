@@ -1,3 +1,12 @@
+/* Colours */
+:root {
+  --dustyrose: #D8AC9B;
+  --mauve: #B67474;
+  --mustard: #D59F33;
+  --lightblue: #CAE3E0;
+  --grey: #ABABAB;
+}
+
 /* Utilities */
 @media only screen and (max-width: 655px) {
   .container{
@@ -73,7 +82,9 @@ a{
 }
 
 .header .site .unlist li a:hover{
-  color: grey;
+  color: var(--dustyrose);
+  border-bottom: 4px solid var(--dustyrose);
+  padding-bottom: 3px;
 }
 
 /* Body */
