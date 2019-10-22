@@ -209,6 +209,10 @@ p.middle{
   height: 240px;
 }
 
+.footer .more-projects a img:hover{
+  transform: translateY(-4px);
+}
+
 @media only screen and (max-width: 655px) {
   .footer .more-projects a img{
     height: 200px;
