@@ -92,3 +92,9 @@
   padding-bottom: 64px;
   margin-bottom: 80px;
 }
+
+/* Resume */
+.resume .content .display-resume{
+  width: 100%;
+  height: 1000px;
+}
