@@ -84,12 +84,25 @@ a{
   }
 }
 
+.header .site .unlist li a.nav-button{
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 32px;
+}
+
+.header .site .unlist li a.nav-button:hover{
+  border: solid 1px var(--dustyrose);
+  color: white;
+  background-color: var(--dustyrose);
+}
+
 .header .site .unlist li a.active{
   border-bottom: 4px solid;
   padding-bottom: 3px;
 }
 
-.header .site .unlist li a:hover{
+.header .site .unlist li a.nav-link:hover{
   color: var(--dustyrose);
   border-bottom: 4px solid var(--dustyrose);
   padding-bottom: 3px;
