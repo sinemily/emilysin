@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="365px" height="394px" viewBox="0 0 365 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <g id="order-collaboration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-26" transform="translate(0.000000, -4.000000)">
+            <text id="BRAND-PLANNER" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#3B3B3B">
+                <tspan x="3" y="22">BRAND PLANNER</tspan>
+            </text>
+            <text id="Jobs" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" fill="#3B3B3B">
+                <tspan x="6.01269531" y="144">Jobs</tspan>
+            </text>
+            <text id="Pains" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" fill="#3B3B3B">
+                <tspan x="3.15136719" y="269">Pains</tspan>
+            </text>
+            <text id="Gains" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" fill="#3B3B3B">
+                <tspan x="2.6484375" y="394">Gains</tspan>
+            </text>
+            <text id="Manage-orders-Report" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="91" y="82">Manage orders</tspan>
+                <tspan x="91" y="106">Report on order status</tspan>
+                <tspan x="91" y="130">Maintain relationships with suppliers</tspan>
+                <tspan x="91" y="154">Solve problematic orders</tspan>
+            </text>
+            <text id="Reacting-to-demand-c" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="91" y="201">Reacting to demand changes </tspan>
+                <tspan x="91" y="225">Lack of real time data, inaccurate data</tspan>
+                <tspan x="91" y="249">Lack of material visibility</tspan>
+                <tspan x="91" y="273">Poor visibility into production output</tspan>
+            </text>
+            <text id="Accurate-and-reliabl" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#000000">
+                <tspan x="91" y="320">Accurate and reliable forecasts</tspan>
+                <tspan x="91" y="344">Agility to react to changes</tspan>
+                <tspan x="91" y="368">Root cause analysis</tspan>
+                <tspan x="91" y="392">Aggregated information</tspan>
+            </text>
+            <g id="Group-25" transform="translate(4.000000, 310.000000)">
+                <g id="gain" stroke="#000000" stroke-linecap="round" stroke-width="1.25">
+                    <path d="M8.45987654,25.3333333 C7.06069959,42.6666667 12.6574074,51.3333333 25.25,51.3333333 C37.8425926,51.3333333 43.4393004,42.6666667 42.0401235,25.3333333" id="Line-11"></path>
+                    <path d="M22,17.3333333 C24,20.6666667 26.6666667,23.3333333 30,25.3333333 C33.3333333,27.3333333 37.3333333,28.6666667 42,29.3333333" id="Line-11" stroke-linejoin="round"></path>
+                    <path d="M8,17.3333333 C9.4,19.5555556 11.2666667,21.3333333 13.6,22.6666667 C15.9333333,24 18.7333333,24.8888889 22,25.3333333" id="Line-11" stroke-linejoin="round" transform="translate(15.000000, 21.333333) scale(-1, 1) translate(-15.000000, -21.333333) "></path>
+                    <path d="M32,30.3333333 C32.5555556,29.6666667 33.3888889,29.3333333 34.5,29.3333333 C35.6111111,29.3333333 36.4444444,29.6666667 37,30.3333333" id="Line-11"></path>
+                    <path d="M13,30.3333333 C13.5555556,29.6666667 14.3888889,29.3333333 15.5,29.3333333 C16.6111111,29.3333333 17.4444444,29.6666667 18,30.3333333" id="Line-11"></path>
+                    <path d="M20,44.3333333 C21.1111111,43 22.7777778,42.3333333 25,42.3333333 C27.2222222,42.3333333 28.8888889,43 30,44.3333333" id="Line-11" transform="translate(25.000000, 43.333333) scale(1, -1) translate(-25.000000, -43.333333) "></path>
+                    <path d="M19,2.78947368 C30.3333333,-2.78947368 39,-1.0782486e-12 45,11.1578947 C49.4924652,19.5123037 47.6187326,32.3126703 48,43.7947368 C48.0852945,46.3634253 48.7519612,49.5429574 50,53.3333333 C47.558737,53.5743392 44.8920704,53.5743392 42,53.3333333 C39.1079296,53.0923275 36.7745963,51.7589941 35,49.3333333" id="Line-11" stroke-linejoin="round"></path>
+                    <path d="M0,3.33333333 C4.66666667,2.66666667 8.66666667,4.33333333 12,8.33333333 C17,14.3333333 16.4242424,33.5385965 17,44.3333333 C17.1359511,46.8822467 17.8026178,49.5489134 19,52.3333333 C17,53.6666667 14.3333333,54 11,53.3333333 C7.66666667,52.6666667 5.33333333,51.3333333 4,49.3333333" id="Line-11" stroke-linejoin="round" transform="translate(9.500000, 28.428571) scale(-1, 1) translate(-9.500000, -28.428571) "></path>
+                    <path d="M8,33.3333333 C6,33.3333333 5,32.3333333 5,30.3333333 C5,28.3333333 6,27.3333333 8,27.3333333" id="Line-11" stroke-linejoin="round"></path>
+                    <path d="M46,33.3333333 C44,33.3333333 43,32.3333333 43,30.3333333 C43,28.3333333 44,27.3333333 46,27.3333333" id="Line-11" stroke-linejoin="round" transform="translate(44.500000, 30.333333) scale(-1, 1) translate(-44.500000, -30.333333) "></path>
+                </g>
+                <circle id="Oval" fill-opacity="0.7" fill="#D59F33" opacity="0.5" cx="27.5" cy="26.8333333" r="22.5"></circle>
+            </g>
+            <g id="Group-22" transform="translate(3.000000, 185.000000)">
+                <circle id="Oval" fill-opacity="0.4" fill="#B67474" cx="24" cy="30" r="24"></circle>
+                <g id="pain" stroke="#000000" stroke-linecap="round" stroke-width="1.25">
+                    <path d="M8.45987654,25.3333333 C7.06069959,42.6666667 12.6574074,51.3333333 25.25,51.3333333 C37.8425926,51.3333333 43.4393004,42.6666667 42.0401235,25.3333333" id="Line-11"></path>
+                    <path d="M22,17.3333333 C24,20.6666667 26.6666667,23.3333333 30,25.3333333 C33.3333333,27.3333333 37.3333333,28.6666667 42,29.3333333" id="Line-11" stroke-linejoin="round"></path>
+                    <path d="M8,17.3333333 C9.4,19.5555556 11.2666667,21.3333333 13.6,22.6666667 C15.9333333,24 18.7333333,24.8888889 22,25.3333333" id="Line-11" stroke-linejoin="round" transform="translate(15.000000, 21.333333) scale(-1, 1) translate(-15.000000, -21.333333) "></path>
+                    <path d="M32,30.3333333 C32.5555556,29.6666667 33.3888889,29.3333333 34.5,29.3333333 C35.6111111,29.3333333 36.4444444,29.6666667 37,30.3333333" id="Line-11"></path>
+                    <path d="M13,30.3333333 C13.5555556,29.6666667 14.3888889,29.3333333 15.5,29.3333333 C16.6111111,29.3333333 17.4444444,29.6666667 18,30.3333333" id="Line-11"></path>
+                    <path d="M20,44.3333333 C21.1111111,43 22.7777778,42.3333333 25,42.3333333 C27.2222222,42.3333333 28.8888889,43 30,44.3333333" id="Line-11"></path>
+                    <path d="M19,2.78947368 C30.3333333,-2.78947368 39,-1.0782486e-12 45,11.1578947 C49.4924652,19.5123037 47.6187326,32.3126703 48,43.7947368 C48.0852945,46.3634253 48.7519612,49.5429574 50,53.3333333 C47.558737,53.5743392 44.8920704,53.5743392 42,53.3333333 C39.1079296,53.0923275 36.7745963,51.7589941 35,49.3333333" id="Line-11" stroke-linejoin="round"></path>
+                    <path d="M0,3.33333333 C4.66666667,2.66666667 8.66666667,4.33333333 12,8.33333333 C17,14.3333333 16.4242424,33.5385965 17,44.3333333 C17.1359511,46.8822467 17.8026178,49.5489134 19,52.3333333 C17,53.6666667 14.3333333,54 11,53.3333333 C7.66666667,52.6666667 5.33333333,51.3333333 4,49.3333333" id="Line-11" stroke-linejoin="round" transform="translate(9.500000, 28.428571) scale(-1, 1) translate(-9.500000, -28.428571) "></path>
+                    <path d="M8,33.3333333 C6,33.3333333 5,32.3333333 5,30.3333333 C5,28.3333333 6,27.3333333 8,27.3333333" id="Line-11" stroke-linejoin="round"></path>
+                    <path d="M46,33.3333333 C44,33.3333333 43,32.3333333 43,30.3333333 C43,28.3333333 44,27.3333333 46,27.3333333" id="Line-11" stroke-linejoin="round" transform="translate(44.500000, 30.333333) scale(-1, 1) translate(-44.500000, -30.333333) "></path>
+                </g>
+            </g>
+            <g id="Group-24" transform="translate(0.000000, 68.000000)">
+                <circle id="Oval" fill-opacity="0.8" fill="#D8AC9B" opacity="0.5" cx="24.725" cy="24.725" r="24.725"></circle>
+                <g id="briefcase" transform="translate(3.450000, 0.287500)" stroke="#000000">
+                    <path d="M2.3,8.9125 L47.15,8.9125 C48.4202549,8.9125 49.45,9.94224508 49.45,11.2125 L49.45,26.9279765 C49.45,28.0461858 48.6457577,29.0023682 47.5440847,29.1939635 L25.3,33.0625 L25.3,33.0625 L1.92333671,29.1817891 C0.813636097,28.99757 2.08049954e-15,28.0377288 0,26.9128412 L0,11.2125 C-1.55561363e-16,9.94224508 1.02974508,8.9125 2.3,8.9125 Z" id="Rectangle" stroke-width="1.4375"></path>
+                    <polyline id="Line-10" stroke-width="1.4375" stroke-linecap="round" stroke-linejoin="round" points="1.15 29.6125 1.15 44.5625 48.3 44.5625 48.3 29.6125"></polyline>
+                    <path d="M10.35,0 C10.35,4.6 10.7333333,7.28333333 11.5,8.05 C12.65,9.2 36.8,9.2 37.95,8.05 C38.7166667,7.28333333 39.1,4.6 39.1,0" id="Line-10" stroke-width="1.4375" stroke-linecap="round" stroke-linejoin="round" transform="translate(24.725000, 4.456250) scale(1, -1) translate(-24.725000, -4.456250) "></path>
+                    <path d="M13.8,3.1625 C13.8,6.13024194 14.0913333,7.86142473 14.674,8.35604839 C15.548,9.09798387 33.902,9.09798387 34.776,8.35604839 C35.3586667,7.86142473 35.65,6.13024194 35.65,3.1625" id="Line-10" stroke-width="1.4375" stroke-linecap="round" stroke-linejoin="round" transform="translate(24.725000, 6.037500) scale(1, -1) translate(-24.725000, -6.037500) "></path>
+                    <rect id="Rectangle" stroke-width="1.15" fill="#FFFFFF" x="23" y="29.6125" width="4.6" height="8.05" rx="1.725"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

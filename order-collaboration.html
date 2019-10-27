@@ -28,9 +28,9 @@
         </div>
         <nav class="site">
           <ol class="unlist">
-            <li><a class="active" href="index.html">work</a></li>
-            <li><a href="resume.html">resume</a></li>
-            <li><a href="contact.html">contact</a></li>
+            <li><a class="nav-link active" href="index.html">work</a></li>
+            <li><a class="nav-link" href="contact.html">contact</a></li>
+            <li><a class="nav-button" href="resume.html" target="blank">resume</a></li>
           </ol>
         </nav>
     </header>
@@ -71,6 +71,7 @@
 
       <h4>My role</h4>
       <p class="end">I was the sole product designer a team comprising of a Product Manager, 4 Developers, and 1 Agile Tester.</p>
+
       <h4>Tools</h4>
       <div class="tools">
         <img src="assets/images/sketch.png" alt="Sketch" />
@@ -84,20 +85,25 @@
       <p class="middle">One of the first things we did was run an <a href="https://medium.com/@springdo/a-facilitators-recipe-for-event-storming-941dcb38db0d" target="blank">example mapping</a>
         session with the team. This created early team-wide alignment and the multidisciplinary perspective allowed us to identify behaviours and use cases that if missed, would have led to re-work further into the design process.</p>
       <h5>Validate quickly, and early on</h5>
-      <p class="middle">I spent two weeks with a design co-op sketching out our ideas and validating them with former Brand Planners that now worked at our company. We spent several hours each day together sorting out the workflow and bouncing ideas off each other. At the end of the two weeks, we showed them our sketches and made adjustments based on the feedback.</p>
+      <p class="end">I spent two weeks with a design co-op sketching out our ideas and validating them with former Brand Planners that now worked at our company. We spent several hours each day together sorting out the workflow and bouncing ideas off each other. At the end of the two weeks, we showed them our sketches and made adjustments based on the feedback.</p>
 
       <h4>Phase 1: Define</h4>
       <h5>Who are the key players and what are they trying to accomplish?</h5>
+      <p class="middle">I interviewed 3 planners on the brand side, and 5 customer service representatives (CSRs) from the supplier side. They were each asked similar questions, with two versions of the script for either the brand or supplier perspective.</p>
       <h4 class="expand">+ view questions</h4>
-      <ol>
+      <ol class="questions">
         <li>Can you describe how you spend a typical day or week?</li>
         <li>Which activities do you spend the most time on?</li>
         <li>What is/are your worst pain point(s)?</li>
         <li>What kind of reports or documentation do you work with to negotiate on orders with your customers?</li>
         <li>Who do you usually communicate with on the customer side? What input do you need from them to either generate or modify the documentation?</li>
       </ol>
-      <p>Using the responses from the interviews, I generated personas by narrowing down the findings into three categories using the
+      <p class="end">Using responses from the interviews, I generated personas by narrowing down the findings into three categories using the
         <a href="https://designabetterbusiness.com/2017/10/12/how-to-really-understand-your-customer-with-the-value-proposition-canvas/" target="blank">job-to-be-done, pains, and gains</a> value proposition.</p>
+      <div class="persona">
+        <img src="assets/images/brand-persona.svg" alt="Brand Planner Persona" />
+        <img src="assets/images/supplier-persona.svg" alt="Supplier CSR Persona" />
+      </div>
       <h5>How can we help our users accomplish their goals?</h5>
       <p>After defining the brand and supplier personas, I created a workflow to capture how both supplier and brand would collaborate together.</p>
       <img class="mobile" src="assets/images/mobile-workflow.png" alt="Workflow" />
@@ -105,25 +111,25 @@
 
       <h4>Phase 2: Ideate</h4>
       <h5>Information Density</h5>
-      <p>When we ran our initial validation with the paper prototypes, we experimented with Purchase Order details in a modal and in a slide out side panel.</p>
+      <p class="middle">When we ran our initial validation with the paper prototypes, we experimented with Purchase Order details in a modal and in a slide out side panel.</p>
       <img src="assets/images/paper-modal.png" alt="Modal Sketch" />
       <img src="assets/images/paper-side-panel.png" alt="Side Panel Sketch" />
-      <p>However, our requirements changed partway through the design process – users needed to specify multiple line items on a Purchase Order, instead of just one. I opted to move the information to a new page, to allow for more real estate to manage this information.</p>
+      <p class="middle">However, our requirements changed partway through the design process – users needed to specify multiple line items on a Purchase Order, instead of just one. I opted to move the information to a new page, to allow for more real estate to manage this information.</p>
       <img src="assets/images/paper-new-page.png" alt="Full Page Sketch" />
       <h5>Actionable Language</h5>
-      <p>Capturing the status of a Purchase Order was key for users to understand which party needed to action on a Purchase Order. We initially approached the naming of statuses from by describing the actions taken on the Purchase Order, using terms like “modified by supplier” and “modified by brand”.</p>
+      <p class="middle">Capturing the status of a Purchase Order was key for users to understand which party needed to action on a Purchase Order. We initially approached the naming of statuses from by describing the actions taken on the Purchase Order, using terms like “modified by supplier” and “modified by brand”.</p>
       <img src="assets/images/paper-statuses.png" alt="Statuses Sketch" />
-      <p>However, after validation with the Brand Planners, we discovered the naming was not resonating with them. Planners have an endless to-do list and are therefore constantly under pressure to ensure deadlines are met. The passive language used did not convey urgency to act on the Purchase Orders. We refined the language to encourage action and rather tell the planners what needed to be done. We settled on the following statuses listed in order of highest priority first: Requires Response, Pending Response, Accepted, Canceled.</p>
+      <p class="end">However, after validation with the Brand Planners, we discovered the naming was not resonating with them. Planners have an endless to-do list and are therefore constantly under pressure to ensure deadlines are met. The passive language used did not convey urgency to act on the Purchase Orders. We refined the language to encourage action and rather tell the planners what needed to be done. We settled on the following statuses listed in order of highest priority first: Requires Response, Pending Response, Accepted, Canceled.</p>
 
       <h4>Phase 3: Prototype and Test</h4>
       <h5>Blanket “Reject” button</h5>
-      <p>To test the overall usability with suppliers, I designed a task walkthrough that simulated the supplier receiving a Purchase Order from the brand, and asked the supplier to complete a series of tasks to successfully respond to the Purchase Order. One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals.</p>
+      <p class="middle">To test the overall usability with suppliers, I designed a task walkthrough that simulated the supplier receiving a Purchase Order from the brand, and asked the supplier to complete a series of tasks to successfully respond to the Purchase Order. One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals.</p>
       <img src="assets/images/supplier-reject-test.png" alt="Reject Button User Test" />
-      <p>Upon further investigation, I discovered that suppliers will almost never reject a Purchase Order, instead working with the Brand to agree on terms. I removed the reject button in later tests and noticed that the success rate for the suppliers to find and make proposals jumped to 100%.</p>
+      <p class="middle">Upon further investigation, I discovered that suppliers will almost never reject a Purchase Order, instead working with the Brand to agree on terms. I removed the reject button in later tests and noticed that the success rate for the suppliers to find and make proposals jumped to 100%.</p>
       <h5>Cancel vs. Delete</h5>
-      <p>If the brand changes their mind about a line item that has already been shared with a supplier, they can cancel the line item on the Purchase Order. Cancelled line items are not technically “deleted” because they are still displayed for historical purposes on the Purchase Order. Since “cancel” is not an action that can be easily represented in an icon, I tested the use of the trash icon, a “cancel” type icon, or just the word “cancel”. I wanted to see if the users’ expectations aligned with the intended behaviour. I was exploring the use of an icon to save space for in-line behaviour.</p>
+      <p class="middle">If the brand changes their mind about a line item that has already been shared with a supplier, they can cancel the line item on the Purchase Order. Cancelled line items are not technically “deleted” because they are still displayed for historical purposes on the Purchase Order. Since “cancel” is not an action that can be easily represented in an icon, I tested the use of the trash icon, a “cancel” type icon, or just the word “cancel”. I wanted to see if the users’ expectations aligned with the intended behaviour. I was exploring the use of an icon to save space for in-line behaviour.</p>
       <img src="assets/images/cancel-test.png" alt="Cancel Button User Test" />
-      <p>The issue with the trash icon is users thought it would remove the line item from the page completely. The cancel icon caused confusion because the icon was too ambiguous. Using just the “cancel” word resulted in successful task completion and understanding every time, which made my choice very clear.</p>
+      <p class="end">The issue with the trash icon is users thought it would remove the line item from the page completely. The cancel icon caused confusion because the icon was too ambiguous. Using just the “cancel” word resulted in successful task completion and understanding every time, which made my choice very clear.</p>
     </main>
 
     <footer class="footer">

@@ -68,7 +68,7 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  padding: 0 0 48px 0;
+  padding: 0 0 72px 0;
 }
 
 @media only screen and (max-width: 655px) {
@@ -92,6 +92,25 @@
   padding-bottom: 64px;
   margin-bottom: 80px;
 }
+
+.order-collaboration .content ol.questions{
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 856px) {
+  .order-collaboration .content div.persona{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width: 395px) {
+  .order-collaboration .content div.persona img{
+    height: 320px;
+    margin-bottom: 24px;
+  }
 
 /* Resume */
 .resume .content .display-resume{
