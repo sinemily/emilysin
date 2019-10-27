@@ -12,4 +12,16 @@ $( document ).ready(function() {
     $(this).parent().find('a.expand').show();
   });
 
+  $('a.expand').on('click', function() {
+    $('p.show-hide').show();
+    $(this).parent().find('a.expand').hide();
+    $(this).parent().find('a.collapse').show();
+  });
+
+  $('a.collapse').on('click', function() {
+    $('p.show-hide').hide();
+    $(this).parent().find('a.collapse').hide();
+    $(this).parent().find('a.expand').show();
+  });
+
 });
