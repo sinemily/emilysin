@@ -111,6 +111,37 @@
     height: 320px;
     margin-bottom: 24px;
   }
+}
+
+.order-collaboration .content img.workflow{
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 791px) {
+  .order-collaboration .content div.sketch1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .order-collaboration .content div.sketch1 img.pic1{
+    width: 50%;
+  }
+  .order-collaboration .content img.pic2{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .order-collaboration .content div.sketch3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .order-collaboration .content div.sketch3 img.pic3{
+    width: 60%;
+  }
+  .order-collaboration .content div.sketch3 p.pic3{
+    padding-right: 48px;
+  }
+}
 
 /* Resume */
 .resume .content .display-resume{

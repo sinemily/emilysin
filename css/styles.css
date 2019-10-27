@@ -209,6 +209,10 @@ p.middle{
 }
 
 /* Footer */
+.footer h3{
+  padding-top: 80px;
+}
+
 .footer .more-projects{
   display: flex;
   justify-content: space-evenly;
