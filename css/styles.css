@@ -158,7 +158,7 @@ h4{
   text-transform: uppercase;
 }
 
-h4.expand{
+h4.trigger{
   font-size: 0.75em;
   color: var(--dustyrose);
   margin: 0;
