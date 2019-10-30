@@ -22,7 +22,7 @@
 
 @media only screen and (min-width: 1101px) {
   .work .content .circles{
-    justify-content: space-between;
+    justify-content: center;
   }
   .work .content .name{
     display: flex;
@@ -141,6 +141,69 @@
   .order-collaboration .content div.sketch3 p.pic3{
     padding-right: 48px;
   }
+}
+
+/* Contact */
+@media only screen and (min-width: 656px) {
+  .contact .content div.contact-info{
+    margin: 80px 0;
+  }
+
+  .contact .content .contact-info a.contact-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .contact .content .contact-info .contact-link img{
+    width: 48px;
+    padding: 0;
+  }
+
+  .contact .content .contact-info .contact-link p{
+    font-size: 1.2em;
+    font-weight: 600px;
+    letter-spacing: 1.5px;
+    padding: 24px;
+    color: black;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .contact .content div.contact-info{
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact .content .contact-info a.contact-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  .contact .content .contact-info .contact-link img{
+    width: 40px;
+    padding: 0;
+  }
+
+  .contact .content .contact-info .contact-link p{
+    font-size: 1.1em;
+    font-weight: 500px;
+    letter-spacing: 1.5px;
+    padding-top: 16px;
+    color: black;
+    margin: 0;
+  }
+}
+
+.contact .content .contact-info .contact-link p:hover{
+  color: var(--dustyrose);
 }
 
 /* Resume */
