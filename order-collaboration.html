@@ -136,14 +136,43 @@
       <p class="end">However, after validation with the Brand Planners, we discovered the naming was not resonating with them. Planners have an endless to-do list and are therefore constantly under pressure to ensure deadlines are met. The passive language used did not convey urgency to act on the Purchase Orders. We refined the language to encourage action and rather tell the planners what needed to be done. We settled on the following statuses listed in order of highest priority first: Requires Response, Pending Response, Accepted, Canceled.</p>
 
       <h4>Phase 3: Prototype and Test</h4>
-      <h5>Blanket “Reject” button</h5>
+      <h5>Task Walkthrough</h5>
       <p class="middle">To test the overall usability with suppliers, I designed a task walkthrough that simulated the supplier receiving a Purchase Order from the brand, and asked the supplier to complete a series of tasks to successfully respond to the Purchase Order. One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals.</p>
-      <img src="assets/images/supplier-reject-test.png" alt="Reject Button User Test" />
-      <p class="middle">Upon further investigation, I discovered that suppliers will almost never reject a Purchase Order, instead working with the Brand to agree on terms. I removed the reject button in later tests and noticed that the success rate for the suppliers to find and make proposals jumped to 100%.</p>
-      <h5>Cancel vs. Delete</h5>
-      <p class="middle">If the brand changes their mind about a line item that has already been shared with a supplier, they can cancel the line item on the Purchase Order. Cancelled line items are not technically “deleted” because they are still displayed for historical purposes on the Purchase Order. Since “cancel” is not an action that can be easily represented in an icon, I tested the use of the trash icon, a “cancel” type icon, or just the word “cancel”. I wanted to see if the users’ expectations aligned with the intended behaviour. I was exploring the use of an icon to save space for in-line behaviour.</p>
-      <img src="assets/images/cancel-test.png" alt="Cancel Button User Test" />
-      <p class="end">The issue with the trash icon is users thought it would remove the line item from the page completely. The cancel icon caused confusion because the icon was too ambiguous. Using just the “cancel” word resulted in successful task completion and understanding every time, which made my choice very clear.</p>
+      <a class="expand">
+        <h4 class="trigger">+ view tasks</h4>
+      </a>
+      <a class="collapse" hidden>
+        <h4 class="trigger">- hide tasks</h4>
+      </a>
+      <ol class="show-hide questions" hidden>
+        <li>You have just logged in to GO, and you see that you have some Purchase Orders that require your attention. Please navigate to the first one in the table.</li>
+        <li>Can you describe to me what you are currently looking at?</li>
+        <li>Now that you’ve had some time to look over the line items, you’ve decided you want to make some proposals to two line items. How would you do that?</li>
+        <li>For 6734 Aspirin Family Pack, you want to propose $1.50 instead of $2.00, and Feb 18, 2019 at the same time of day.</li>
+        <li>Now indicate a reason and add a change note to the line item.</li>
+        <li>For 7734 Aspirin Family Pack, you want to take the 3 day buffer - please propose a later date, then indicate a reason and add a change note to the item.</li>
+        <li>Let’s share those changes with the customer now.</li>
+        <li>What does it look like has happened since you’ve shared those changes?</li>
+        <li>Let’s now accept the last two items that require response.</li>
+        <li>Is everything looking as expected?</li>
+        <li>Let’s say for example, that we made proposals for 6734 Aspirin Family Pack but we’ve changed our minds and want to accept it. How would you do that?</li>
+        <li>For this example, let’s cancel these changes.</li>
+        <li>Now, let’s say the customer has now responded to the Purchase Order. The screen on the next page will simulate a response to the Purchase Order from the customer. Click anywhere to proceed.</li>
+        <li>What do think are the changes that have occurred?</li>
+        <li>And if you were to respond to the line item and make a different proposal, where would you click?</li>
+      </ol>
+      <img class="wireframes" src="assets/images/supplier-reject-test.png" alt="Reject Button User Test" />
+      <p class="middle">From the testing, I found 3 major takeaways:</p>
+      <h5>1 - Blanket “Reject” button was drawing too much attention</h5>
+      <p class="middle">One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals. Upon further investigation, I discovered that suppliers will almost never reject a Purchase Order, instead working with the Brand to agree on terms. I removed the reject button in later tests and noticed that the success rate for the suppliers to find and make proposals jumped to 100%.</p>
+      <h5>2 - Planners and CSRs are responding to line items on an individual basis</h5>
+      <p class="middle">I had initially designed the feature to have a "Make proposals" button that would make the whole line item table editable, under the assumption that they planners are likely to quickly make changes to each line item if they are making proposals. During testing, it became obvious that the users were distracted by the visual noise that was created in the table when all of the fields suddenly became editable. I dug into this a bit more during testing and learned that users are often reading the content for each line item, and then deciding whether or not to make changes to the proposal or accept the line item. With the visual noise on the table in “edit” mode, they were not able to decipher the information as easily. I opted to have the option to make proposals on a single line item, available as a row-level action in the table, with the edits happening in a side panel. So when users needed to make changes, they could still read the information in the table without being obstructed by unnecessary input fields.
+      </p>
+      <h5>3 - Having the ability to accept the entire Purchase Order and accept individual line items should be handled consistently</h5>
+      <p class="middle">In the design I tested, users were able to accept the entire Purchase Order through the “Accept Purchase Order” button. They also had the option once they clicked “Make Proposals” to accept line items individually or in bulk. With this design there was a lot of confusion around what accepting the entire Purchase Order meant versus using bulk accept on the line items. Introducing two different ways to achieve the same outcome was not making it easier or more efficient for users to accomplish what they needed, but rather complicating the interaction on the page. I modified the design to always expose the checkboxes and allowing the user to accept individually on the row-level, as well as in bulk by using the select all checkbox. By removing the extra “Accept Purchase Order” button, users are able to still accept the entire Purchase Order, and the confusion of two pathways to the same outcome was removed.</p>
+      <p class="middle">Here's what the revised designs looked like:</p>
+      <img class="wireframes" src="assets/images/supplier-test-improvements.png" alt="Improved Wireframe" />
+      <img class="wireframes" src="assets/images/supplier-test-improvements-view-request.png" alt="View Request on Improved Wireframe" />
     </main>
 
     <footer class="footer">
