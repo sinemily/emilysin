@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emily Sin - BOM Versioning</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Emily Sin's Design Portfolio">
+    <link rel="icon" href="assets/images/emily-favicon.png" type="image/png" sizes="25x25">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/css-vars-ponyfill@1"></script>
+    <script>
+      cssVars({
+        // ...
+      });
+    </script>
+  </head>
+
+  <body class="bom-versioning container">
+
+    <header class="header">
+        <div class="branding">
+          <a href="index.html">
+            <img class="logo" src="assets/images/emily-logo.svg" alt="Emily Logo" />
+          </a>
+        </div>
+        <nav class="site">
+          <ol class="unlist">
+            <li><a class="nav-link active" href="index.html">work</a></li>
+            <li><a class="nav-link" href="contact.html">contact</a></li>
+            <li><a class="nav-button" href="resume.html" target="blank">resume</a></li>
+          </ol>
+        </nav>
+    </header>
+
+    <main class="content">
+
+      <h3>BOM Versioning</h3>
+      <p class="quote">“I’d like to mention that the new BOM version control is a welcome addition. The BOM version control allows us to remove a process outside Nulogy and streamline it within the system."</p>
+      <p class="quoter">- EVP of one of our customers</p>
+      <h4>Impact & results</h4>
+      <ul>
+        <li>100% of our customers using this feature</li>
+        <li>Within the first month of launching, we had 4,376 versions finalized by our top 10 customers using the feature</li>
+        <li>Within the first month of launch, an average of 257 versions was being created per day</li>
+      </ul>
+      <h4>Problem</h4>
+      <p class="middle">Prior to this project, there was only one Bill of Materials per Item in our application. This caused a variety of problems when it came to our customers actually using these Items in production:</p>
+      <ol>
+        <li>A finished good’s contents can change slightly over time. When this change happens and the BOM is updated, the changes are propagated everywhere, meaning current production, as well as historical data records are affected (i.e. consumption, reconciliation)</li>
+        <li>A finished good sometimes can be built in different ways, meaning they require slightly different BOMs, but the final product is actually the same finished good. Currently customers are using workarounds like substitutes and optionals to manage this, but this is uncontrolled and prone to errors.</li>
+        <li>Some facilities have machines on their lines. Depending on the machine speeds, production rates will vary. In this case, the same Item Master information will not provide accurate production metrics.</li>
+      </ol>
+      <p class="middle">We needed a way to control these changes in the application to ensure production could run smoothly. That’s why Nulogy decided to implement BOM Versioning.</p>
+      <a class="expand">
+        <h4 class="trigger special-trigger">+ view glossary</h4>
+      </a>
+      <a class="collapse" hidden>
+        <h4 class="trigger">- hide glossary</h4>
+      </a>
+      <p class="show-hide middle" hidden>A Bill of Materials (BOM) is a list of the raw materials, sub-assemblies, intermediate assemblies, sub-components, parts, and the quantities of each needed to manufacture a finished good (Item). In addition to BOM information, each Item contains information on weight, cost, production rates, assembly steps, and more. This information is stored in what we call the Item Master for each Item.</p>
+      <p class="show-hide end" hidden>A BOM is specified on each Item, and that Item is tied to a production order, known as Projects in our solution. The BOM is used to determine quantities for reservations for components that are in stock, and orders for components that are not in stock. When it comes time to actually produce the finished good, the BOM is used to determine the ratio of materials that goes into the good.</p>
+
+
+      <h4>Solution</h4>
+      <p class="middle">Bill of Materials Versioning allow customers to run multiple projects for the same finished good Item simultaneously by using different versions, providing a controlled way to make and manage changes to the BOM.</p>
+      <h5 class="showcase">Create a separate space for versioned information</h5>
+      <p class="middle showcase">Each component of the Item Master is divided into its own section, to separate versioned information from non-versioned components.</p>
+      <img src="assets/images/item-information.png" alt="item information" />
+      <img src="assets/images/units-of-measure.png" alt="units of measure" />
+      <img src="assets/images/inventory-control.png" alt="inventory control" />
+      <img src="assets/images/assembly-details.png" alt="assembly details" />
+      <img src="assets/images/module-settings.png" alt="module settings" />
+      <h5 class="showcase">Provide a space for changes</h5>
+      <p class="middle showcase">By default, users are taken to the draft version of the Bill of Materials when they navigate to the section, where they can easily make changes without affecting production in progress.</p>
+      <img src="assets/images/bill-of-materials-draft.png" alt="draft bill of materials" />
+      <h5 class="showcase">Make finalizing versions flexible</h5>
+      <p class="middle showcase">A version name can be specified, or users can finalize using the default name provided.</p>
+      <img src="assets/images/bill-of-materials-finalize-name.png" alt="specify version name on bill of materials" />
+      <h5 class="showcase">Make it easy to see and find versions</h5>
+      <p class="middle showcase">Versions are in reverse chronological order, so users can easily find the most recent version.</p>
+      <img src="assets/images/bill-of-materials-version-nav.png" alt="view finalized versions" />
+
+
+      <h4>My role</h4>
+      <p class="end">I was the sole product designer a team comprising of a Product Manager, 4 Developers, and 1 Agile Tester.</p>
+
+      <h4>Tools</h4>
+      <div class="tools">
+        <img src="assets/images/sketch.png" alt="Sketch" />
+        <img src="assets/images/lucidchart.png" alt="Lucidchart" />
+        <img src="assets/images/balsamiq.png" alt="Balsamiq" />
+        <img src="assets/images/invision.png" alt="Invision" />
+      </div>
+
+      <h4>Approach</h4>
+      <h5>Understand the current state</h5>
+      <p class="end">BOM Versioning has been a highly requested feature by many of our existing customers for a long time. It was prioritized because many of our more regulated customers (GxP) required a better way to control changes to the BOM in order to continue using our solution. As a result, we spent a lot of time interviewing our customers to understand how they were currently using the Item Master and Projects in production. Once development began, we set up constant touchpoints with our customers to demo the feature as it was being built.</p>
+
+      <h4>Phase 1: Empathize & Define</h4>
+      <h5>Who are the key players and what are they trying to accomplish?</h5>
+      <p class="middle">I interviewed 3 different customers to understand their current workflow, and also gathered information from internal resources; our consultants who implement and train users on the software have invaluable information about what users are trying to do.</p>
+      <a class="expand">
+        <h4 class="trigger">+ view questions</h4>
+      </a>
+      <a class="collapse" hidden>
+        <h4 class="trigger">- hide questions</h4>
+      </a>
+      <ol class="show-hide questions" hidden>
+        <li>Can you walk through how your current process is like from when you receive an order to when that order becomes final and production is ready to start?</li>
+        <li>When is the order considered final?</li>
+        <li>How do you ensure its final? For example, are there signatures required on the document?</li>
+        <li>What information must remain consistent when the order is final? For example, the BOM or any Project information?</li>
+        <li>What happens if the information must change when production has started? What is this process like?</li>
+        <li>What happens when the information changes for a new order? Do you create a new set of paperwork that needs to be signed off?</li>
+      </ol>
+      <p class="end">Using responses from the interviews, I generated a persona for the Production Planner by narrowing down the findings into three categories using the
+        <a href="https://designabetterbusiness.com/2017/10/12/how-to-really-understand-your-customer-with-the-value-proposition-canvas/" target="blank">job-to-be-done, pains, and gains</a> value proposition.</p>
+      <div class="persona">
+        <img src="assets/images/bom-versioning-persona.svg" alt="Production Planner Persona" />
+      </div>
+      <h5>How can we help our users accomplish their goals?</h5>
+      <p class="middle">After defining the Production Planner persona, I created a workflow to capture how the Production Planner would flow through the system with versioning introduced.</p>
+      <img class="workflow mobile" src="assets/images/bom-versioning-workflow-mobile.png" alt="Workflow" />
+      <img class="workflow desktop" src="assets/images/bom-versioning-workflow-desktop.png" alt="Workflow" />
+
+      <h4>Phase 2: Ideate</h4>
+      <h5>Identify what requires redesign</h5>
+      <p class="middle">Before we were able to even approach versioning on the Item Master, we looked at the Item Master in its existing state. There was a lack of thought behind the organization of information that trying to introduce versioning without a redesign of the Item Master would crowd the page even more. The old Item Master is depicted below:</p>
+      <img src="assets/images/old-item-master.png" alt="Old Item Master" />
+      <p class="middle">One thing to note here is that the Item Master redesign was scope that we added to the BOM versioning project just because of the usability issues it would cause by trying to introduce versioning without redesigning the page. For that reason, and because we were working with dated front end frameworks, I was very limited in the amount of interaction changes I was able to make about how the page worked already. Many of the changes I made to the Item Master were organizational, without changing too much how to edit and manage the data on the page.</p>
+      <p class="end">One thing to note here is that the Item Master redesign was scope that we added to the BOM versioning project just because of the usability issues it would cause by trying to introduce versioning without redesigning the page. For that reason, and because we were working with dated front end frameworks, I was very limited in the amount of interaction changes I was able to make about how the page worked already. Many of the changes I made to the Item Master were organizational, without changing too much how to edit and manage the data on the page.</p>
+      <h5>Card sorting activity</h5>
+      <p class="middle">To understand how the Item Master information should be organized, I ran a card sorting activity with 2 of our implementation consultants, and a global support representative - all of whom have extensive experience both setting up and training our customers on the Item Master.</p>
+      <p class="showcase">Participant 1: Rob (Implementation Consultant)</p>
+      <div class="card-sort">
+        <img src="assets/images/card-sort-rob-1.png" alt="Card Sort by Rob 1" />
+        <img src="assets/images/card-sort-rob-2.png" alt="Card Sort by Rob 2" />
+      </div>
+      <p class="showcase">Participant 2: Melissa (Global Support Representative)</p>
+      <div class="card-sort">
+        <img src="assets/images/card-sort-melissa-1.png" alt="Card Sort by Melissa 1" />
+        <img src="assets/images/card-sort-melissa-2.png" alt="Card Sort by Melissa 2" />
+      </div>
+      <p class="showcase">Participant 3: Luis (Implementation Consultant)</p>
+      <div class="card-sort">
+        <img src="assets/images/card-sort-luis-1.png" alt="Card Sort by Luis 1" />
+        <img src="assets/images/card-sort-luis-2.png" alt="Card Sort by Luis 2" />
+      </div>
+      <p class="end">Using the results from the card sorting activity, I ended up with a breakdown depicted on the right hand side - the original organization is indicated on the left:</p>
+      <div class="sketch1">
+        <img class="pic1" src="assets/images/paper-modal.png" alt="Modal Sketch" />
+        <img class="pic1" src="assets/images/paper-side-panel.png" alt="Side Panel Sketch" />
+      </div>
+        <p class="pic2 middle">However, our requirements changed partway through the design process – users needed to specify multiple line items on a Purchase Order, instead of just one. I opted to move the information to a new page, to allow for more real estate to manage this information.</p>
+        <img class="pic2" src="assets/images/paper-new-page.png" alt="Full Page Sketch" />
+      <h5>Actionable Language</h5>
+      <div class="sketch3">
+        <p class="pic3 middle">Capturing the status of a Purchase Order was key for users to understand which party needed to action on a Purchase Order. We initially approached the naming of statuses from by describing the actions taken on the Purchase Order, using terms like “modified by supplier” and “modified by brand”.</p>
+        <img class="pic3" src="assets/images/paper-statuses.png" alt="Statuses Sketch" />
+      </div>
+      <p class="end">However, after validation with the Brand Planners, we discovered the naming was not resonating with them. Planners have an endless to-do list and are therefore constantly under pressure to ensure deadlines are met. The passive language used did not convey urgency to act on the Purchase Orders. We refined the language to encourage action and rather tell the planners what needed to be done. We settled on the following statuses listed in order of highest priority first: Requires Response, Pending Response, Accepted, Canceled.</p>
+
+      <h4>Phase 3: Prototype and Test</h4>
+      <h5>Blanket “Reject” button</h5>
+      <p class="middle">To test the overall usability with suppliers, I designed a task walkthrough that simulated the supplier receiving a Purchase Order from the brand, and asked the supplier to complete a series of tasks to successfully respond to the Purchase Order. One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals.</p>
+      <img src="assets/images/supplier-reject-test.png" alt="Reject Button User Test" />
+      <p class="middle">Upon further investigation, I discovered that suppliers will almost never reject a Purchase Order, instead working with the Brand to agree on terms. I removed the reject button in later tests and noticed that the success rate for the suppliers to find and make proposals jumped to 100%.</p>
+      <h5>Cancel vs. Delete</h5>
+      <p class="middle">If the brand changes their mind about a line item that has already been shared with a supplier, they can cancel the line item on the Purchase Order. Cancelled line items are not technically “deleted” because they are still displayed for historical purposes on the Purchase Order. Since “cancel” is not an action that can be easily represented in an icon, I tested the use of the trash icon, a “cancel” type icon, or just the word “cancel”. I wanted to see if the users’ expectations aligned with the intended behaviour. I was exploring the use of an icon to save space for in-line behaviour.</p>
+      <img src="assets/images/cancel-test.png" alt="Cancel Button User Test" />
+      <p class="end">The issue with the trash icon is users thought it would remove the line item from the page completely. The cancel icon caused confusion because the icon was too ambiguous. Using just the “cancel” word resulted in successful task completion and understanding every time, which made my choice very clear.</p>
+    </main>
+
+    <footer class="footer">
+      <h3>more projects</h3>
+      <div class="more-projects">
+        <a href="csv-imports.html">
+            <img src="assets/images/csv-imports.svg"/>
+        </a>
+        <a href="inventory-management.html">
+            <img src="assets/images/inventory-management.svg"/>
+        </a>
+      </div>
+
+      <h3>contact</h3>
+      <div class="contact">
+        <a class="contact" href=""><img src="assets/images/email.svg"/><p>emily.w.sin@gmail.com</p></a>
+        <a class="contact" href="https://www.youtube.com/emilysin" target="blank"><img src="assets/images/youtube.svg"/><p>www.youtube.com/emilysin</p></a>
+        <a class="contact" href="https://www.linkedin.com/in/emilysin/" target="blank"><img src="assets/images/linkedin.svg"/><p>www.linkedin.com/in/emilysin/</p></a>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

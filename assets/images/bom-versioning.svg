@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="369px" viewBox="0 0 369 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>bom-versioning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="172.8" cy="172.8" r="172.8"></circle>
+        <filter x="-5.9%" y="-4.5%" width="111.9%" height="111.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.552941176   0 0 0 0 0.552941176   0 0 0 0 0.552941176  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bom-versioning" transform="translate(12.000000, 7.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#B67474" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-7" transform="translate(64.800000, 52.800000)">
+                <text id="BOM-Versioning" font-family="Roboto-Light, Roboto" font-size="33.6" font-weight="300" fill="#FFFFFF">
+                    <tspan x="72.9996094" y="31">BOM</tspan>
+                    <tspan x="31.2867188" y="70">Versioning</tspan>
+                </text>
+                <text id="Nulogy-•-2018" font-family="Roboto-Light, Roboto" font-size="19.2" font-weight="300" fill="#FFFFFF">
+                    <tspan x="43.1578125" y="234">NULOGY • 2018</tspan>
+                </text>
+                <g id="bom" transform="translate(72.200000, 102.200000)">
+                    <g id="Group-3" transform="translate(0.800000, 0.000000)" stroke="#FFFFFF">
+                        <path d="M39.2,62 C39.2,70.9359996 44.7813952,78.5683946 52.648238,81.6012371 L4.4,81.6 C3.0745166,81.6 2,80.5254834 2,79.2 L2,52.8 L41.3171549,52.8001083 C39.9610344,55.5783577 39.2,58.7003043 39.2,62 Z M48.994268,0 C49.6376521,-1.03322396e-14 50.254096,0.258323865 50.7052682,0.717003141 L69.2,19.5194679 L69.200705,43.0212284 C66.4727596,41.7251981 63.4210694,41 60.2,41 C54.5856347,41 49.4858589,43.2032198 45.718107,46.7922251 L41.4475767,40.8 L47.2967777,32.5929213 C47.5865953,32.1862749 47.7423544,31.6993551 47.7423544,31.2 C47.7423544,29.9297451 46.7555154,28.8899788 45.5066731,28.8055369 L45.3423544,28.8 L2,28.799 L2,2.4 C2,1.0745166 3.0745166,-1.53286949e-15 4.4,0 L48.994268,0 Z" id="Combined-Shape" stroke-width="3"></path>
+                        <path d="M1.7,28.5 C0.7,28.8333333 0.2,29.3333333 0.2,30 C0.2,31 0.2,49 0.2,51 C0.2,52.3333333 0.866666667,53 2.2,53" id="Line-9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke-width="3" cx="60.2" cy="62" r="21"></circle>
+                        <polyline id="Line-8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="60.2 46 60.2 63 73.2 63"></polyline>
+                        <polygon id="Triangle" stroke-width="3" stroke-linejoin="round" points="50 0 69.2 19.5194679 50 19.5194679"></polygon>
+                    </g>
+                    <text id="V1.0" font-family="Rubik-Light, Rubik" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="6" y="47">V1.0</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
