@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-16.000000, -6493.000000)" stroke="#000000">
+            <g id="Group-7" transform="translate(17.000000, 6494.000000)">
+                <circle id="Oval" cx="12.5" cy="12.5" r="12.5"></circle>
+                <line x1="10.5" y1="24.5" x2="10.5" y2="21.5" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M4.5,17.5 C5.26246176,17.5957951 5.76246176,17.7624618 6,18 C7,19 7.45526597,20.636844 8,21 C8.71624781,21.4774985 9.54958114,21.6441652 10.5,21.5" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4.5,17.5 C5.50900202,17.1756687 6.34233535,17.3423354 7,18 C8,19 7.98837549,20 9,20 C9.66666667,20 10.3333333,19.3333333 11,18" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M11,18 C8.33333333,17.3333333 6.66666667,16.3333333 6,15 C5.14732791,13.2946558 5.48066124,11.2946558 7,9" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M20.4597679,18 C17.7931013,17.3333333 16.1264346,16.3333333 15.4597679,15 C14.6070958,13.2946558 14.9404292,11.2946558 16.4597679,9" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.729884, 13.500000) scale(-1, 1) translate(-17.729884, -13.500000) "></path>
+                <path d="M16,23 C16.1332526,21.6662631 16.1332526,20.6662631 16,20 C15.8667474,19.3337369 15.533414,18.6670702 15,18" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M7,9 C6.56204872,7.1876934 6.56204872,6.1876934 7,6 C7.43795128,5.8123066 8.43795128,6.14563993 10,7" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M16.3284635,9.05071066 C15.8905122,7.23840407 15.8905122,6.23840407 16.3284635,6.05071066 C16.7664147,5.86301726 17.7664147,6.19635059 19.3284635,7.05071066" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.664232, 7.525355) scale(-1, 1) translate(-17.664232, -7.525355) "></path>
+                <path d="M16,7 C15.3333333,6.66666667 14.3333333,6.5 13,6.5 C11.6666667,6.5 10.6666667,6.66666667 10,7" id="Line-6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
