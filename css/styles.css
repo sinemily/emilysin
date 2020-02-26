@@ -210,6 +210,16 @@ p.quoter{
   font-size: 0.9em;
 }
 
+p.audio-caption{
+  text-align: center;
+  margin: 0;
+  padding: 0 0 24px 0;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.9em;
+  color: var(--darkblue);
+}
+
 @media only screen and (max-width: 655px) {
   h1{
     text-align: center;

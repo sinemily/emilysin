@@ -220,6 +220,13 @@
   color: var(--dustyrose);
 }
 
+/*Company Story*/
+div.audio{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
 /* Resume */
 .resume .content .display-resume{
   width: 100%;
