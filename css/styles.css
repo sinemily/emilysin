@@ -236,6 +236,12 @@ p.audio-caption{
   padding: 0 0 8px 0;
 }
 
+.content h5.showcase-beginning{
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 16px;
+}
+
 .content h5.showcase{
   text-align: center;
   padding-top: 40px;
