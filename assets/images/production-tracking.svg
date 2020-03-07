@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="93px" viewBox="0 0 99 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>production-tracking</title>
+    <desc>Created with Sketch.</desc>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="production-tracking" transform="translate(2.000000, 0.000000)">
+            <circle id="Oval" fill-opacity="0.7" fill="#F9CB6F" opacity="0.5" cx="50.5" cy="46.5" r="46.5"></circle>
+            <polygon id="Rectangle" stroke="#000000" stroke-width="3" stroke-linejoin="round" points="0 19.3703704 34 35.7407407 34 78 0 62.1851852"></polygon>
+            <polyline id="Line-11" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0 19.3703704 34 3 49.0178866 10.2308343 68 19.3703704"></polyline>
+            <line x1="17.5" y1="27.5" x2="50.3703704" y2="10.5555556" id="Line-11" stroke="#000000" stroke-width="3" stroke-linejoin="round"></line>
+            <path d="M68,20 L68.0003209,39.6650282 C66.4673071,39.8841636 65.2546899,41.0967033 65.0354373,42.6296794 L65.0354373,42.6296794 L55,42.6296296 C54.4477153,42.6296296 54,43.0773449 54,43.6296296 L54,43.6296296 L54,69.036 L34,77.9259259 L34,36.3703704 L68,20 Z" id="Combined-Shape" stroke="#000000" stroke-width="3" stroke-linejoin="round"></path>
+            <path d="M77.5,39.6296296 C79.2632532,39.6296296 80.7219693,40.9335081 80.9645627,42.6296794 L90,42.6296296 C90.5522847,42.6296296 91,43.0773449 91,43.6296296 L91,86.6296296 C91,87.1819144 90.5522847,87.6296296 90,87.6296296 L55,87.6296296 C54.4477153,87.6296296 54,87.1819144 54,86.6296296 L54,43.6296296 C54,43.0773449 54.4477153,42.6296296 55,42.6296296 L65.0354373,42.6296794 C65.2780307,40.9335081 66.7367468,39.6296296 68.5,39.6296296 L77.5,39.6296296 Z" id="Combined-Shape" stroke="#000000" stroke-width="3"></path>
+            <rect id="Rectangle" stroke="#000000" stroke-width="3" x="65" y="39" width="16" height="7" rx="3.5"></rect>
+            <polyline id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="60 57 62 59 67 53"></polyline>
+            <line x1="72" y1="54" x2="81" y2="54" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="72" y1="58" x2="85" y2="58" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="72" y1="63.5" x2="81" y2="63.5" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="72" y1="67.5" x2="85" y2="67.5" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+            <polyline id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="60 67 62 69 67 63"></polyline>
+            <rect id="Rectangle" stroke="#000000" stroke-width="2" x="60" y="75" width="6" height="6" rx="1"></rect>
+        </g>
+    </g>
+</svg>

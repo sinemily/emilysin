@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="94px" viewBox="0 0 100 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>scorecards</title>
+    <desc>Created with Sketch.</desc>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="scorecards" transform="translate(2.000000, 1.000000)">
+            <circle id="Oval" fill="#CAE3E0" opacity="0.5" cx="51.5" cy="46.5" r="46.5"></circle>
+            <rect id="Rectangle" stroke="#000000" stroke-width="3" x="0" y="1" width="91" height="84" rx="1"></rect>
+            <rect id="Rectangle" stroke="#000000" stroke-width="3" stroke-linejoin="round" x="8" y="17" width="30" height="27"></rect>
+            <g id="Group-9" transform="translate(8.000000, 52.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                <polyline id="Line" points="4.32560932e-12 1 0 25 53 25"></polyline>
+                <polyline id="Line" points="39 6 29 6 29 25"></polyline>
+                <polyline id="Line" points="29 12 19 12 19 25"></polyline>
+                <polyline id="Line" points="19 18 9 18 9 25"></polyline>
+                <polyline id="Line" points="49 24 49 4.01885421e-14 39 0 39 23.8344828"></polyline>
+            </g>
+            <line x1="69" y1="52" x2="83" y2="52" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="69" y1="58" x2="81" y2="58" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="69" y1="64" x2="77" y2="64" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="69" y1="77" x2="83" y2="77" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="4.32560932e-12" y1="9" x2="91" y2="9" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+            <g id="Group-10" transform="translate(46.000000, 17.000000)" stroke="#000000">
+                <circle id="Oval" stroke-width="2" cx="2.5" cy="24.5" r="2.5"></circle>
+                <circle id="Oval" stroke-width="2" cx="34.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval" stroke-width="2" cx="26.5" cy="4.5" r="2.5"></circle>
+                <circle id="Oval" stroke-width="2" cx="18.5" cy="16.5" r="2.5"></circle>
+                <circle id="Oval" stroke-width="2" cx="10.5" cy="12.5" r="2.5"></circle>
+                <line x1="4.5" y1="22.5" x2="9.5" y2="14.5" id="Line-10" stroke-width="3"></line>
+                <line x1="28.25" y1="3.75" x2="32.5" y2="2.5" id="Line-10" stroke-width="3"></line>
+                <line x1="19.5" y1="15.5" x2="24.5" y2="6.5" id="Line-10" stroke-width="3"></line>
+                <line x1="16.5" y1="15.5" x2="12" y2="13" id="Line-10" stroke-width="3"></line>
+            </g>
+        </g>
+    </g>
+</svg>

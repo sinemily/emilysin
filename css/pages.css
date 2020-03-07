@@ -227,6 +227,37 @@ div.audio{
   margin-bottom: 64px;
 }
 
+div.navigation-row{
+  margin-bottom: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+div.navigation-row div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  padding: 32px;
+}
+
+div.navigation-row div img{
+  width: 88px;
+  padding-bottom: 16px;
+}
+
+div.navigation-row div p{
+  color: black;
+  font-size: 0.75em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin: 0;
+  padding: 0;
+}
+
 /* Resume */
 .resume .content .display-resume{
   width: 100%;
