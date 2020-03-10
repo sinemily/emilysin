@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="266px" height="266px" viewBox="0 0 266 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>Emily</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -31,7 +31,7 @@
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="Mask" stroke="#CAE3E0" stroke-width="5" fill="#CAE3E0" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <use id="Mask" stroke="#B67474" stroke-width="5" fill="#B67474" fill-rule="nonzero" xlink:href="#path-1"></use>
                 <g id="Rectangle-5" mask="url(#mask-2)">
                     <g transform="translate(77.000000, 207.000000)">
                         <mask id="mask-4" fill="white">
