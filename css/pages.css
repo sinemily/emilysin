@@ -1,29 +1,18 @@
 /* Work */
+.work .content .name{
+    margin-bottom: 360px;
+}
+
 .work .content .circles{
   display: flex;
-  padding-top: 100px;
-  border-top: 1px solid grey;
 }
 
-.work .content p{
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: black;
-  margin-top: 300px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 1100px) {
-  .work .content .circles{
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
+.work .content .circles{
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 1101px) {
-  .work .content .circles{
-    justify-content: center;
-  }
   .work .content .name{
     display: flex;
     justify-content: flex-start;
@@ -36,10 +25,6 @@
 
 .work .content .circles img.main-circle{
   height: 250px;
-}
-
-.work .content .circles a{
-  padding-bottom: 32px;
 }
 
 .work .content .circles img:hover{
@@ -220,14 +205,14 @@
   color: var(--dustyrose);
 }
 
-/*Company Story*/
-div.audio{
+/* Strategic Partnership */
+.strategic-partnership .content div.audio{
   display: flex;
   justify-content: center;
   margin-bottom: 64px;
 }
 
-div.navigation-row{
+.strategic-partnership .content div.navigation-row{
   margin-bottom: 56px;
   display: flex;
   flex-wrap: wrap;
@@ -235,7 +220,7 @@ div.navigation-row{
   align-items: baseline;
 }
 
-div.navigation-row div{
+.strategic-partnership .content div.navigation-row div{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,12 +228,12 @@ div.navigation-row div{
   padding: 32px;
 }
 
-div.navigation-row div img{
+.strategic-partnership .content div.navigation-row div img{
   width: 88px;
   padding-bottom: 16px;
 }
 
-div.navigation-row div p{
+.strategic-partnership .content div.navigation-row div p{
   color: black;
   font-size: 0.75em;
   font-weight: 500;

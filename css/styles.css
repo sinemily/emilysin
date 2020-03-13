@@ -307,29 +307,23 @@ p.audio-caption{
 .footer .more-projects{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
-  max-width: 600px;
   margin: 0 auto;
-  padding-bottom: 56px;
+  padding-bottom: 32px;
 }
 
 .footer .more-projects a img{
   height: 240px;
+  padding: 24px;
 }
 
 .footer .more-projects a img:hover{
   transform: translateY(-4px);
 }
 
-@media only screen and (max-width: 655px) {
-  .footer .more-projects a img{
-    height: 200px;
-    justify-content: space-between;
-  }
-}
-
 .footer div.contact{
-  max-width: 312px;
+  max-width: 270px;
   margin: 0 auto;
 }
 

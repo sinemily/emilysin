@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="369px" viewBox="0 0 369 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>strategic-partnership</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="172.8" cy="172.8" r="172.8"></circle>
+        <filter x="-5.9%" y="-4.5%" width="111.9%" height="111.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.554177989   0 0 0 0 0.554177989   0 0 0 0 0.554177989  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="strategic-partnership" transform="translate(12.000000, 7.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#D59F33" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="materials-overview" transform="translate(64.800000, 52.800000)">
+                <text id="Strategic-Partnershi" font-family="Roboto-Light, Roboto" font-size="33.6" font-weight="300" fill="#FFFFFF">
+                    <tspan x="43.3863281" y="31">Strategic </tspan>
+                    <tspan x="24.4453125" y="70">Partnership</tspan>
+                </text>
+                <text id="Nulogy-•-2019" font-family="Roboto-Light, Roboto" font-size="19.2" font-weight="300" fill="#FFFFFF">
+                    <tspan x="43.1578125" y="234">NULOGY • 2019 </tspan>
+                </text>
+                <g id="warehouse-with-colour" transform="translate(62.400000, 116.600000)" stroke="#FFFFFF">
+                    <g id="warehouse" transform="translate(0.000000, 0.496875)">
+                        <path d="M1.19941382,25.6513906 L45.6,0 L45.6,0 L90.0005862,25.6513906 C90.7428184,26.0801978 91.2,26.8723175 91.2,27.7295131 L91.2,81.6 C91.2,82.9254834 90.1254834,84 88.8,84 L2.4,84 C1.0745166,84 -1.16994273e-15,82.9254834 0,81.6 L0,27.7295131 C-9.93154602e-16,26.8723175 0.457181586,26.0801978 1.19941382,25.6513906 Z" id="Rectangle" stroke-width="3" stroke-linejoin="round"></path>
+                        <rect id="Rectangle" stroke-width="3" stroke-linejoin="round" x="12" y="28.8" width="67.2" height="7.2"></rect>
+                        <line x1="15.6" y1="37.2" x2="15.6" y2="82.8" id="Line" stroke-width="3" stroke-linecap="square"></line>
+                        <line x1="75.6" y1="37.2" x2="75.6" y2="46.8" id="Line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="75.6" y1="54" x2="75.6" y2="82.8" id="Line" stroke-width="3" stroke-linecap="round"></line>
+                        <g id="Group-5" transform="translate(15.600000, 64.800000)" stroke-width="2.4">
+                            <rect id="Rectangle" stroke-linejoin="round" x="0" y="0" width="21.6" height="19.2"></rect>
+                            <rect id="Rectangle" stroke-linejoin="round" x="7.2" y="0" width="7.2" height="9.6"></rect>
+                            <line x1="7.2" y1="14.4" x2="14.4" y2="14.4" id="Line-2" stroke-linecap="round"></line>
+                        </g>
+                        <g id="Group-5" transform="translate(37.200000, 64.800000)" stroke-width="2.4">
+                            <rect id="Rectangle" stroke-linejoin="round" x="0" y="0" width="21.6" height="19.2"></rect>
+                            <rect id="Rectangle" stroke-linejoin="round" x="7.2" y="0" width="7.2" height="9.6"></rect>
+                            <line x1="7.2" y1="14.4" x2="14.4" y2="14.4" id="Line-2" stroke-linecap="round"></line>
+                        </g>
+                        <g id="Group-5" transform="translate(15.600000, 45.600000)" stroke-width="2.4">
+                            <rect id="Rectangle" stroke-linejoin="round" x="0" y="0" width="21.6" height="19.2"></rect>
+                            <rect id="Rectangle" stroke-linejoin="round" x="7.2" y="0" width="7.2" height="9.6"></rect>
+                            <line x1="7.2" y1="14.4" x2="14.4" y2="14.4" id="Line-2" stroke-linecap="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="scorecards" transform="translate(212.000000, 150.000000)" stroke="#FFFFFF">
+                <rect id="Rectangle" stroke-width="3" x="0" y="0" width="82" height="76" rx="1"></rect>
+                <rect id="Rectangle" stroke-width="3" stroke-linejoin="round" x="7" y="15" width="27" height="24"></rect>
+                <g id="Group-9" transform="translate(7.000000, 46.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                    <polyline id="Line" points="3.91753296e-12 0.92 0 23 48 23"></polyline>
+                    <polyline id="Line" points="35.3207547 5.52 26.2641509 5.52 26.2641509 23"></polyline>
+                    <polyline id="Line" points="26.2641509 11.04 17.2075472 11.04 17.2075472 23"></polyline>
+                    <polyline id="Line" points="17.2075472 16.56 8.1509434 16.56 8.1509434 23"></polyline>
+                    <polyline id="Line" points="44.3773585 22.08 44.3773585 3.69734588e-14 35.3207547 0 35.3207547 21.9277241"></polyline>
+                </g>
+                <line x1="62" y1="46.5" x2="75" y2="46.5" id="Line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="62" y1="51.5" x2="73" y2="51.5" id="Line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="62" y1="57.5" x2="69" y2="57.5" id="Line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="62" y1="68.5" x2="75" y2="68.5" id="Line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="3.8978018e-12" y1="7.5" x2="82" y2="7.5" id="Line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                <g id="Group-10" transform="translate(42.000000, 15.000000)">
+                    <ellipse id="Oval" stroke-width="2" cx="2.22972973" cy="21.7777778" rx="2.22972973" ry="2.22222222"></ellipse>
+                    <ellipse id="Oval" stroke-width="2" cx="30.7702703" cy="2.22222222" rx="2.22972973" ry="2.22222222"></ellipse>
+                    <ellipse id="Oval" stroke-width="2" cx="23.6351351" cy="4" rx="2.22972973" ry="2.22222222"></ellipse>
+                    <ellipse id="Oval" stroke-width="2" cx="16.5" cy="14.6666667" rx="2.22972973" ry="2.22222222"></ellipse>
+                    <ellipse id="Oval" stroke-width="2" cx="9.36486486" cy="11.1111111" rx="2.22972973" ry="2.22222222"></ellipse>
+                    <line x1="4.01351351" y1="20" x2="8.47297297" y2="12.8888889" id="Line-10" stroke-width="3"></line>
+                    <line x1="25.1959459" y1="3.33333333" x2="28.9864865" y2="2.22222222" id="Line-10" stroke-width="3"></line>
+                    <line x1="17.3918919" y1="13.7777778" x2="21.8513514" y2="5.77777778" id="Line-10" stroke-width="3"></line>
+                    <line x1="14.7162162" y1="13.7777778" x2="10.7027027" y2="11.5555556" id="Line-10" stroke-width="3"></line>
+                </g>
+            </g>
+            <g id="production-tracking" transform="translate(42.000000, 141.000000)" stroke="#FFFFFF">
+                <polygon id="Rectangle" stroke-width="3" stroke-linejoin="round" points="0 16.3703704 34 32.7407407 34 75 0 59.1851852"></polygon>
+                <polyline id="Line-11" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0 16.3703704 34 0 49.0178866 7.23083429 68 16.3703704"></polyline>
+                <line x1="17.5" y1="24.5" x2="50.3703704" y2="7.55555556" id="Line-11" stroke-width="3" stroke-linejoin="round"></line>
+                <path d="M68,17 L68.0003209,36.6650282 C66.4673071,36.8841636 65.2546899,38.0967033 65.0354373,39.6296794 L65.0354373,39.6296794 L55,39.6296296 C54.4477153,39.6296296 54,40.0773449 54,40.6296296 L54,40.6296296 L54,66.036 L34,74.9259259 L34,33.3703704 L68,17 Z" id="Combined-Shape" stroke-width="3" stroke-linejoin="round"></path>
+                <path d="M77.5,36.6296296 C79.2632532,36.6296296 80.7219693,37.9335081 80.9645627,39.6296794 L90,39.6296296 C90.5522847,39.6296296 91,40.0773449 91,40.6296296 L91,83.6296296 C91,84.1819144 90.5522847,84.6296296 90,84.6296296 L55,84.6296296 C54.4477153,84.6296296 54,84.1819144 54,83.6296296 L54,40.6296296 C54,40.0773449 54.4477153,39.6296296 55,39.6296296 L65.0354373,39.6296794 C65.2780307,37.9335081 66.7367468,36.6296296 68.5,36.6296296 L77.5,36.6296296 Z" id="Combined-Shape" stroke-width="3"></path>
+                <rect id="Rectangle" stroke-width="3" x="65" y="36" width="16" height="7" rx="3.5"></rect>
+                <polyline id="Line-12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="60 54 62 56 67 50"></polyline>
+                <line x1="72" y1="51" x2="81" y2="51" id="Line-12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="72" y1="55" x2="85" y2="55" id="Line-12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="72" y1="60.5" x2="81" y2="60.5" id="Line-12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="72" y1="64.5" x2="85" y2="64.5" id="Line-12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                <polyline id="Line-12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="60 64 62 66 67 60"></polyline>
+                <rect id="Rectangle" stroke-width="2" x="60" y="72" width="6" height="6" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
