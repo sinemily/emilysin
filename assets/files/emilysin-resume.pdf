@@ -49472,7 +49472,43 @@ endobj
                      >>
                   /Rect [ 120.000000 250.140625 236.354492 261.859375 ]
                   /Subtype /Link
-               >> ]
+               >>
+               << /A << /S /URI
+                        /URI (mailto\072emily\056w\056sin\100gmail\056com)
+                        /Type /Action
+                     >>
+                  /Rect [ 426.000000 708.140625 533.305389 719.859375 ]
+                  /Subtype /Link
+               >>
+               << /A << /S /URI
+                        /URI (https\072\057\057emilysin\056me\057)
+                        /Type /Action
+                     >>
+                  /Rect [ 426.000000 724.140625 480.881447 735.859375 ]
+                  /Subtype /Link
+               >>
+               << /A << /S /URI
+                        /URI (https\072\057\057www\056linkedin\056com\057in\057emilysin\057)
+                        /Type /Action
+                     >>
+                  /Rect [ 426.000000 676.140625 543.041641 687.859375 ]
+                  /Subtype /Link
+               >>
+               << /A << /S /URI
+                        /URI (https\072\057\057www\056youtube\056com\057c\057EmilySin)
+                        /Type /Action
+                     >>
+                  /Rect [ 426.000000 641.140625 527.488129 652.859375 ]
+                  /Subtype /Link
+               >>
+               << /A << /S /URI
+                        /URI (https\072\057\057github\056com\057sinemily)
+                        /Type /Action
+                     >>
+                  /Rect [ 426.000000 658.640625 519.767715 670.359375 ]
+                  /Subtype /Link
+               >>
+             ]
      /Type /Page
      /MediaBox [ 0.000000 0.000000 612.000000 792.000000 ]
      /Resources 921 0 R
@@ -50421,13 +50457,13 @@ xref
 0000453635 00000 n
 0001800136 00000 n
 0001800164 00000 n
-0001800631 00000 n
-0001800709 00000 n
+0001802125 00000 n
+0001802203 00000 n
 trailer
 << /ID [ (some) (id) ]
    /Root 926 0 R
    /Size 927
 >>
 startxref
-1800772
+1802266
 %%EOF
