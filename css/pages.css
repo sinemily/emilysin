@@ -12,16 +12,16 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 1101px) {
-  /* .work .content .name{
+/* @media only screen and (min-width: 1101px) {
+  .work .content .name{
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
   }
   .work .content .name h2{
     padding-left: 16px;
-  } */
-}
+  }
+} */
 
 .work .content .circles img.main-circle{
   height: 250px;
@@ -143,15 +143,38 @@
 }
 
 /* Contact */
-@media only screen and (min-width: 656px) {
   .contact .content div.contact-info{
     margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .contact .content .contact-info a.contact-link{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 16px 16px 16px 24px;
+    margin: 16px 16px 16px 0;
+    width: 340px;
+    height: 40px;
+    border-radius: 40px;
+  }
+
+  .contact .content .contact-info a.mail{
+    background-color: rgb(216, 172, 155, 0.5);
+  }
+
+  .contact .content .contact-info a.linkedin{
+    background-color: rgb(178, 220, 214, 0.5);
+  }
+
+  .contact .content .contact-info a.github{
+    background-color: rgb(255, 217, 141, 0.5);
+  }
+
+  .contact .content .contact-info a.youtube{
+    background-color: rgb(182, 116, 116, 0.5);
   }
 
   .contact .content .contact-info .contact-link img{
@@ -167,42 +190,43 @@
     color: black;
     margin: 0;
   }
-}
 
 @media only screen and (max-width: 655px) {
   .contact .content div.contact-info{
     margin-top: 96px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .contact .content .contact-info a.contact-link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 64px;
+    width: 280px;
   }
 
   .contact .content .contact-info .contact-link img{
-    width: 40px;
+    width: 32px;
     padding: 0;
   }
 
   .contact .content .contact-info .contact-link p{
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500px;
-    letter-spacing: 1.5px;
-    padding-top: 16px;
     color: black;
-    margin: 0;
+    padding: 24px 24px 24px 16px;
   }
 }
 
-.contact .content .contact-info .contact-link p:hover{
-  color: var(--dustyrose);
+.contact .content .contact-info a.mail:hover{
+  background-color: var(--dustyrose);
+}
+
+.contact .content .contact-info a.linkedin:hover{
+  background-color: var(--lightblue);
+}
+
+.contact .content .contact-info a.github:hover{
+  background-color: var(--yellow);
+}
+
+.contact .content .contact-info a.youtube:hover{
+  background-color: var(--burgundy);
 }
 
 /* Strategic Partnership */
