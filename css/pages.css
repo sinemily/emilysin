@@ -13,14 +13,14 @@
 }
 
 @media only screen and (min-width: 1101px) {
-  .work .content .name{
+  /* .work .content .name{
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
   }
   .work .content .name h2{
     padding-left: 16px;
-  }
+  } */
 }
 
 .work .content .circles img.main-circle{
