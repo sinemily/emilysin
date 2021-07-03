@@ -396,12 +396,6 @@ p.audio-caption{
   background-size: 100%;
 }
 
-/* @media only screen and (min-width: 901px) and (max-width: 1550px) {
-  .backgrounds .bean{
-    display: none;
-  }
-} */
-
 @media only screen and (max-width: 1550px) {
   .backgrounds .bean{
     top: 1000px;
@@ -421,6 +415,7 @@ p.audio-caption{
   height: 572px;
   z-index: -60;
   background-size: 100%;
+  position: absolute;
 }
 
 @media only screen and (max-width: 1550px) {
@@ -443,6 +438,7 @@ p.audio-caption{
   height: 90px;
   z-index: -60;
   background-size: 100%;
+  position: absolute;
 }
 
 @media only screen and (max-width: 1400px) {
