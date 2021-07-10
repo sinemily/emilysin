@@ -230,6 +230,10 @@ p.audio-caption{
   color: var(--darkblue);
 }
 
+ol.emphasis{
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 655px) {
   h1{
     text-align: center;
