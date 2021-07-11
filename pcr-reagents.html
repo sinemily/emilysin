@@ -38,11 +38,11 @@
     <main class="content">
 
       <h3>PCR Reagents</h3>
-      <h4>Impact & results</h4>
+      <!-- <h4>Impact & results</h4>
       <ul>
         <li>X beta testers were able to successfully find an PCR primer or probe for a current or past project</li>
         <li>X users at a major pharma company have access to the feature, with more releases to other companies to follow</li>
-      </ul>
+      </ul> -->
       <h4>Problem</h4>
       <p class="middle">Reagent selection accounts for about 36.1% of experimental failure, and experimental success is a key component of preclinical drug discovery. Delays in the preclinical drug discovery phases only impede the speed at which life-saving drugs can be developed and delivered to patients. BenchSci’s mission is to bring new drugs to patients faster by 50%. PCR Reagents are no exception to the challenges of reagent selection. Specifically, the main challenges identified with PCR reagents selected include:</p>
       <a class="expand">
@@ -101,94 +101,72 @@
         <li>Identifying qPCR primer or probe products, or sequences, that have been used in the published literature for a gene, and in a particular experimental context</li>
         <li>Selecting primers for conventional PCR applications</li>  
       </ol>
-      <h5>How can we help our users accomplish their goals?</h5>
-      <p class="middle">After defining the brand and supplier personas, I created a workflow to capture how both supplier and brand would collaborate together.</p>
-      <img class="workflow mobile" src="assets/images/mobile-workflow.png" alt="Workflow" />
-      <img class="workflow desktop" src="assets/images/desktop-workflow.png" alt="Workflow" />
-      <a class="expand">
-        <h4 class="trigger">+ view questions</h4>
-      </a>
-      <a class="collapse" hidden>
-        <h4 class="trigger">- hide questions</h4>
-      </a>
-      <ol class="show-hide questions" hidden>
-        <li>Can you describe how you spend a typical day or week?</li>
-        <li>Which activities do you spend the most time on?</li>
-        <li>What is/are your worst pain point(s)?</li>
-        <li>What kind of reports or documentation do you work with to negotiate on orders with your customers?</li>
-        <li>Who do you usually communicate with on the customer side? What input do you need from them to either generate or modify the documentation?</li>
-      </ol>
-      <p class="end">Using responses from the interviews, I generated personas by narrowing down the findings into three categories using the
-        <a href="https://designabetterbusiness.com/2017/10/12/how-to-really-understand-your-customer-with-the-value-proposition-canvas/" target="blank">job-to-be-done, pains, and gains</a> value proposition.</p>
-      <div class="persona">
-        <img src="assets/images/brand-persona.svg" alt="Brand Planner Persona" />
-        <img src="assets/images/supplier-persona.svg" alt="Supplier CSR Persona" />
+      <h5>What are others doing to solve these problems?</h5>
+      <p class="middle">I took a look at what other competitors in the space were doing with PCR to understand where BenchSci could differentiate its solution. The competitive analysis I conducted investigated the following three vendors:</p>
+      <div class="company-logos">
+        <img src="assets/images/idt.png" alt="Integrated DNA Technologies" />
+        <img src="assets/images/qiagen.png" alt="Qiagen" />
+        <img src="assets/images/tf.png" alt="Thermo Fisher Scientific" />
       </div>
+      <p class="end">The full competitive analysis can be found
+        <a href="pcr-competitive-analysis.html" target="blank">here</a>.</p>
 
       <h4>Phase 2: Ideate</h4>
-      <h5>Information Density</h5>
-      <p class="middle">When we ran our initial validation with the paper prototypes, we experimented with Purchase Order details in a modal and in a slide out side panel.</p>
-      <div class="sketch1">
-        <img class="pic1" src="assets/images/paper-modal.png" alt="Modal Sketch" />
-        <img class="pic1" src="assets/images/paper-side-panel.png" alt="Side Panel Sketch" />
+      <h5>Information Architecture</h5>
+      <div class="column1">
+        <img class="pic1" src="assets/images/ia-ideation-whimsical.png" alt="IA Ideation" />
+        <p class="middle caption1">I brainstormed how the various data we were capturing would fit into the current platform. One aspect I considered was how the multiple PCR reagents would fit into the current product type selection, and how product subtypes would be organized.</p>
       </div>
-        <p class="pic2 middle">However, our requirements changed partway through the design process – users needed to specify multiple line items on a Purchase Order, instead of just one. I opted to move the information to a new page, to allow for more real estate to manage this information.</p>
-        <img class="pic2" src="assets/images/paper-new-page.png" alt="Full Page Sketch" />
-      <h5>Actionable Language</h5>
-      <div class="sketch3">
-        <p class="pic3 middle">Capturing the status of a Purchase Order was key for users to understand which party needed to action on a Purchase Order. We initially approached the naming of statuses from by describing the actions taken on the Purchase Order, using terms like “modified by supplier” and “modified by brand”.</p>
-        <img class="pic3" src="assets/images/paper-statuses.png" alt="Statuses Sketch" />
-      </div>
-      <p class="end">However, after validation with the Brand Planners, we discovered the naming was not resonating with them. Planners have an endless to-do list and are therefore constantly under pressure to ensure deadlines are met. The passive language used did not convey urgency to act on the Purchase Orders. We refined the language to encourage action and rather tell the planners what needed to be done. We settled on the following statuses listed in order of highest priority first: Requires Response, Pending Response, Accepted, Canceled.</p>
+      <h5>Housekeeping Genes</h5>
+      <p class="middle">Since finding a suitable housekeeping gene to use was the most cited challenge among scientists, I brainstormed several different solutions to address this problem:</p>
+      <ol class="emphasis">
+        <li>Collapse results by housekeeping gene
+          <img src="assets/images/hk-gene-whimsical-collapse.png" alt="Collapse Solution" />
+        </li>
+        <li>Display a summary of housekeeping genes at the top of results
+          <img src="assets/images/hk-gene-whimsical-summary.png" alt="Summary Solution" />
+        </li>
+        <li>Consolidate all housekeeping gene data in a separate page
+          <img src="assets/images/hk-gene-whimsical-new-page.png" alt="Separate Page Solution" />
+        </li>
+      </ol>
+      <h5>Primer Pairs</h5>
+      <p class="middle">Since primers must be used in pairs, it was important to be able to link scientists to potential primer pairs. I experimented with using tags to indicate this, as well as displaying the pairs together:</p>
+      <img src="assets/images/primer-whimsical.png" alt="Primer Pair Ideation" />
 
       <h4>Phase 3: Prototype and Test</h4>
-      <h5>Task Walkthrough</h5>
-      <p class="middle">To test the overall usability with suppliers, I designed a task walkthrough that simulated the supplier receiving a Purchase Order from the brand, and asked the supplier to complete a series of tasks to successfully respond to the Purchase Order. One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals.</p>
-      <a class="expand">
-        <h4 class="trigger">+ view tasks</h4>
-      </a>
-      <a class="collapse" hidden>
-        <h4 class="trigger">- hide tasks</h4>
-      </a>
-      <ol class="show-hide questions" hidden>
-        <li>You have just logged in to GO, and you see that you have some Purchase Orders that require your attention. Please navigate to the first one in the table.</li>
-        <li>Can you describe to me what you are currently looking at?</li>
-        <li>Now that you’ve had some time to look over the line items, you’ve decided you want to make some proposals to two line items. How would you do that?</li>
-        <li>For 6734 Aspirin Family Pack, you want to propose $1.50 instead of $2.00, and Feb 18, 2019 at the same time of day.</li>
-        <li>Now indicate a reason and add a change note to the line item.</li>
-        <li>For 7734 Aspirin Family Pack, you want to take the 3 day buffer - please propose a later date, then indicate a reason and add a change note to the item.</li>
-        <li>Let’s share those changes with the customer now.</li>
-        <li>What does it look like has happened since you’ve shared those changes?</li>
-        <li>Let’s now accept the last two items that require response.</li>
-        <li>Is everything looking as expected?</li>
-        <li>Let’s say for example, that we made proposals for 6734 Aspirin Family Pack but we’ve changed our minds and want to accept it. How would you do that?</li>
-        <li>For this example, let’s cancel these changes.</li>
-        <li>Now, let’s say the customer has now responded to the Purchase Order. The screen on the next page will simulate a response to the Purchase Order from the customer. Click anywhere to proceed.</li>
-        <li>What do think are the changes that have occurred?</li>
-        <li>And if you were to respond to the line item and make a different proposal, where would you click?</li>
-      </ol>
-      <img class="wireframes" src="assets/images/supplier-reject-test.png" alt="Reject Button User Test" />
-      <p class="middle">From the testing, I found 3 major takeaways:</p>
-      <h5>1 - Blanket “Reject” button was drawing too much attention</h5>
-      <p class="middle">One of the most notable findings occurred in 80% of the tests. The suppliers would immediately go to reject the Purchase Order, instead of responding to the Purchase Order and making proposals. Upon further investigation, I discovered that suppliers will almost never reject a Purchase Order, instead working with the Brand to agree on terms. I removed the reject button in later tests and noticed that the success rate for the suppliers to find and make proposals jumped to 100%.</p>
-      <h5>2 - Planners and CSRs are responding to line items on an individual basis</h5>
-      <p class="middle">I had initially designed the feature to have a "Make proposals" button that would make the whole line item table editable, under the assumption that the planners are likely to quickly make changes to each line item if they are making proposals. During testing, it became obvious that the users were distracted by the visual noise that was created in the table when all of the fields suddenly became editable. I dug into this a bit more during testing and learned that users are often reading the content for each line item, and then deciding whether or not to make changes to the proposal or accept the line item. With the visual noise on the table in “edit” mode, they were not able to decipher the information as easily. I opted to have the option to make proposals on a single line item, available as a row-level action in the table, with the edits happening in a side panel. So when users needed to make changes, they could still read the information in the table without being obstructed by unnecessary input fields.
-      </p>
-      <h5>3 - Having the ability to accept the entire Purchase Order and accept individual line items should be handled consistently</h5>
-      <p class="middle">In the design I tested, users were able to accept the entire Purchase Order through the “Accept Purchase Order” button. They also had the option once they clicked “Make Proposals” to accept line items individually or in bulk. With this design there was a lot of confusion around what accepting the entire Purchase Order meant versus using bulk accept on the line items. Introducing two different ways to achieve the same outcome was not making it easier or more efficient for users to accomplish what they needed, but rather complicating the interaction on the page. I modified the design to always expose the checkboxes and allowing the user to accept individually on the row-level, as well as in bulk by using the select all checkbox. By removing the extra “Accept Purchase Order” button, users are able to still accept the entire Purchase Order, and the confusion of two pathways to the same outcome was removed.</p>
-      <p class="middle">Here's what the revised designs looked like:</p>
-      <img class="wireframes" src="assets/images/supplier-test-improvements.png" alt="Improved Wireframe" />
-      <img class="wireframes" src="assets/images/supplier-test-improvements-view-request.png" alt="View Request on Improved Wireframe" />
+      <p class="middle">I created a prototype and task walkthrough to test with 10 scientists - many of whom were initially interviewed during the discovery phase. I tested over a period of two weeks, and iterated on the prototype as I observed challenges users had.</p>
+      <h5>Housekeeping Gene Solution: Narrowing Down a Solution</h5>
+      <p class="middle">Very quickly on in the testing I ruled out the version with the separate page - the reason for this being that it was immediately clear scientists were having difficulty navigating. They often found themselves wanting to return back to the page with housekeeping gene data after reviewing some results for a particular gene. This resulted in a lot of back and forth navigation that was much more cumbersome in comparison to the summary and collapsed solution options.</p>
+      <img class="wireframes" src="assets/images/hk-gene-ut-page.png" alt="User Test Separate Page Housekeeping Gene Solution" />
+      <p class="middle">Scientists were almost equally as successful with the collapse solution as they were with the summary - the challenge with this solution was that scientists were having trouble finding the control to toggle the collapsed view when this was not automatically done for them. This would have been a UI challenge we could tackle, except for the fact that the collapse solution on product results could not support a specific use case that was mentioned by scientists  during testing - showing housekeeping genes used with a particular gene target.</p>
+      <img class="wireframes" src="assets/images/hk-gene-ut-collapse-products.png" alt="User Test Collapse Housekeeping Gene Solution" />
+      <p class="middle">Scientists found the summary solution to be the most easily digestible, with many stating that it was very easy to see the top housekeeping genes for their search context immediately. Scientists also mentioned they were most likely to turn to figures to find housekeeping gene data - hence having the summary on figure results was very intuitive. Because of this, the summary solution also supported the special use case of showing housekeeping genes used with a particular target, ultimately sealing the deal on this solution.</p>
+      <img class="wireframes" src="assets/images/hk-gene-ut-summary-figure.png" alt="User Test Summary Housekeeping Gene Solution" />
+      <h5>Primer Pairs</h5>
+      <img class="wireframes" src="assets/images/primer-tag-ut.png" alt="User Test Primer Pair Tags" />
+      <p class="middle">After seeing scientists interact with the prototype, I noticed that the primer information was most important to be provided on the actual product details of the primer, rather than in the product results. This is because, at this point in the workflow, a scientist is still considering whether or not a primer could be suitable, by reviewing multiple primers in their results. It is only until they decide to investigate more into a primer by clicking into the details page does displaying primer pair information become relevant.</p>
+      <img class="wireframes" src="assets/images/primer-ut.png" alt="User Test Primer Pairs on Product Page" />
+      <p class="end">In the prototype, the information on primer pairs was very minimal. During testing, scientists mentioned that in addition to seeing the number of figures two primers were used together in, they would need to see additional information such as species, and binding location, in order to assess if that primer is suitable.</p>
+    
+      <h4>Learnings and Improvements</h4>
+      <h5>Break up testing into waves</h5>
+      <p class="middle">One of the things that was challenging with bundling all the tests together into a two week period is that it left little time for iteration in between tests. In the future, I would like to test more in waves and allow for several rounds of iteration versus trying to make changes so quickly in between tests.</p>
+      <h5>Build a shared language</h5>
+      <p class="end">Because this project relied on multiple components coming together: designs, data mining and data mapping, I was constantly collaborating with the Research & Development, Science and Web Applications teams. One of the recurring themes in our discussions together was the importance of having a shared language when referring to the data. My understanding of the data was from the perspective of the user, and what is displayed on the platform, however, that data is collected and ultimately transformed into what is being displayed on the interface. Therefore my definition of a use case is different from what other teams understand. Being able to refer to a particular term without having to clarify each time what something means would have helped a lot of conversations go more smoothly.</p> 
     </main>
 
     <footer class="footer">
       <h3>more projects</h3>
       <div class="more-projects">
-        <a href="bom-versioning.html">
-            <img src="assets/images/bom-versioning.svg"/>
+        <a href="order-collaboration.html">
+          <img src="assets/images/order-collaboration.svg"/>
         </a>
         <a href="strategic-partnership.html">
             <img src="assets/images/strategic-partnership.svg"/>
+        </a>
+        <a href="bom-versioning.html">
+          <img src="assets/images/bom-versioning.svg"/>
         </a>
       </div>
 
