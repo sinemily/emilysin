@@ -161,7 +161,7 @@
   .design-maturity-scorecard div.download-button{
     display:flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 80px;
   }
   
   .design-maturity-scorecard a.download-button{
@@ -178,6 +178,7 @@
 
   .design-maturity-scorecard img.scorecard-display{
     width: 90vw;
+    padding-bottom: 16px;
   }
 
   .design-maturity-scorecard div.scorecard-display{
