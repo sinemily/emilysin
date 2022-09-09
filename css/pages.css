@@ -157,6 +157,44 @@
   }
 }
 
+/* Design Maturity Scorecard */
+  .design-maturity-scorecard div.download-button{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  
+  .design-maturity-scorecard a.download-button{
+    font-weight: 500;
+    color:white;
+    background-color: var(--dustyrose);
+    border-radius: 4px;
+    padding: 8px 16px;
+  }
+
+  .design-maturity-scorecard a.download-button:hover{
+    background-color: var(--burgundy);
+  }
+
+  .design-maturity-scorecard img.scorecard-display{
+    width: 90vw;
+  }
+
+  .design-maturity-scorecard div.scorecard-display{
+    display: flex;
+    justify-content: center;
+  }
+
+  .design-maturity-scorecard ul{
+    margin: 0;
+    padding-bottom: 16px;
+    font-weight: normal;
+  }
+
+  .design-maturity-scorecard ol{
+    font-weight: bold;
+  }
+
 /* Contact */
   .contact .content div.contact-info{
     margin: 80px 8px;
