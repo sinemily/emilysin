@@ -195,6 +195,10 @@ h5{
   padding-bottom: 56px;
 }
 
+ul.middle{
+  padding-bottom: 24px;
+}
+
 p.end{
   margin: 0;
   padding: 0 0 56px 0;
@@ -203,6 +207,11 @@ p.end{
 p.middle{
   margin: 0;
   padding: 0 0 24px 0;
+}
+
+p.start{
+  margin: 0;
+  padding: 0;
 }
 
 p.quote{
@@ -329,6 +338,21 @@ ol.emphasis{
   display: block;
   width: 100%;
   padding: 8px 0 48px;
+}
+
+.content img.end{
+  margin-bottom: 40px;
+}
+
+.content img.start{
+  margin-top: 8px;
+}
+
+/* Video */
+.content video{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 /* PDFs */

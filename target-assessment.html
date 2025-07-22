@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emily Sin - Target Assessment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Emily Sin's Design Portfolio">
+    <link rel="icon" href="assets/images/emily-favicon.png" type="image/png" sizes="25x25">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/css-vars-ponyfill@1"></script>
+    <script>
+      cssVars({
+        // ...
+      });
+    </script>
+  </head>
+
+  <body class="pcr-reagents container">
+
+    <header class="header">
+        <div class="branding">
+          <a href="index.html">
+            <img class="logo" src="assets/images/emily-logo.svg" alt="Emily Logo" />
+          </a>
+        </div>
+        <nav class="site">
+          <ol class="unlist">
+            <li><a class="nav-link active" href="index.html">work</a></li>
+            <li><a class="nav-link" href="contact.html">contact</a></li>
+            <li><a class="nav-button" href="resume.html" target="blank">resume</a></li>
+          </ol>
+        </nav>
+    </header>
+
+    <main class="content">
+
+      <h3>Target Assessment</h3>
+      <!-- <h4>Impact & results</h4>
+      <ul>
+        <li>X beta testers were able to successfully find an PCR primer or probe for a current or past project</li>
+        <li>X users at a major pharma company have access to the feature, with more releases to other companies to follow</li>
+      </ul> -->
+      <h4>Problem</h4>
+      <p class="start">For scientists working in early-stage drug discovery, choosing the right biological target is one of the most critical and challenging decisions they make. The data they need to make that decision is fragmented, buried in siloed data sources, and requires manual interpretation. Among the many factors scientists must weigh, two of the most critical are:</p>
+      <ol class="emphasis">
+        <li>Is this target actually causing the disease? (causality)</li>
+        <li>Can we safely develop a treatment against it? (safety)</li>
+      </ol>
+      <p>Answering even these fundamental questions requires weeks of manual research and interpretation. This creates a clear opportunity: by helping scientists quickly assess the strength and risk of a target early on, we can reduce wasted time and effort, and increase the likelihood of selecting a successful target the first time.</p>
+      <p class="end">For design, addressing the target selection problem meant surfacing complex biological evidence in a way that’s actionable, trustworthy, and intuitive.</p>
+      
+      <h4>Solution</h4>
+      <p class="middle">Scientists can search their candidate targets in a specific disease context to view a dashboard that helps them quickly compare targets side-by-side. The interface surfaces key evidence across multiple dimensions: biological relevance, clinical trials, and adverse phenotypes to help answer core questions around causality and safety. By bringing this data together in a single, intuitive view, enables scientists to eliminate weak targets earlier and make more confident, informed decisions.</p>
+      <h5 class="showcase">Find the right targets in a disease context</h5>
+      <p class="middle showcase">An autocomplete form helps scientists quickly search and select up to five biological targets in the context of a specific disease. This interaction sets clear expectations and ensures entries match real entities in our database, avoiding dead-end searches and enabling fast, accurate assessments.</p>
+      <img src="assets/images/housekeeping-gene-search-bar.gif" alt="Enter targets and disease into the form input" />
+      <h5 class="showcase">Visualize complex evidence without the overwhelm</h5>
+      <p class="middle showcase">Scientists first see a dashboard that enables quick, side-by-side comparison of targets in the context of a specific disease. The interface surfaces key evidence across biological relevance, clinical trials, and adverse phenotypes, helping scientists assess causality and safety at a glance, and eliminate weak targets with confidence.</p>
+      <img src="assets/images/housekeeping-gene-no-search-filter.gif" alt="Scroll through of the target profile table and graphs" />
+      <h5 class="showcase">Give scientists the depth they need at the right time in their analysis</h5>
+      <p class="middle showcase">Scientists can click “View Data” to explore the underlying evidence behind each visualization. This transparency is critical as scientists are deeply analytical and skeptical by nature. Earning their trust means showing the work, not just providing conclusions.</p>
+      <img src="assets/images/figure-modal.png" alt="Clicking on the View Data button leads to the data tables" />
+      <h5 class="showcase">Summarized insights upfront, detailed evidence below</h5>
+      <p class="middle showcase">An AI-generated text summary sits above the data tables to help scientists quickly grasp key insights before diving into the details. This bridges what they saw in the visualizations with the underlying evidence, making it easier to interpret complex data without losing context.</p>
+      <img src="assets/images/primer-pairs-final.gif" alt="LLM text summary in the preclinicl data module" />
+      <h5 class="showcase">Surface safety signals with smart, structured grouping</h5>
+      <p class="middle showcase">Before showing the full list of safety references, adverse events are grouped by organ system and modulation direction (increase, decrease, or unknown). This extra layer of aggregation helps scientists interpret the data more effectively by highlighting key safety patterns, making it easier to spot potential red flags before digging into the detailed evidence.</p>
+      <img src="assets/images/primer-pairs-final.gif" alt="Aggregated safety table" />
+      <h5 class="showcase">Go from summary to source in one click</h5>
+      <p class="middle showcase">When scientists click on a row in the reference table, a side panel opens with a concise summary of the original study and a direct link to the source. This interaction keeps them grounded in context while giving them the transparency and traceability they need to trust and verify the data.</p>
+      <img class="solution-end" src="assets/images/product-results.png" alt="Publication in side panel" />
+
+      <h4>My role</h4>
+      <p class="end">I was the sole lead product designer working alongside a Technical Product Manager, Product Manager, UX Researcher, and Science Lead. We worked on the primary solution functionality with a team of supporting members from science, data pipeline, and engineering to ensure the designs were supported by the data and functionality in the application.</p>
+
+      <h4>Tools</h4>
+      <div class="tools">
+        <img src="assets/images/figma.png" alt="Figma" />
+        <img src="assets/images/dovetail.png" alt="Dovetail" />
+        <img src="assets/images/bolt.png" alt="bolt" />
+        <img src="assets/images/v0.png" alt="v0" />
+      </div>
+
+      <h4>Approach</h4>
+      <p class="middle">We began building the Target Assessment tool during a pivotal moment in the industry. LLMs and AI tools like ChatGPT were gaining attention, and both our customers and board were asking how we planned to respond. The pressure to deliver something fast was real, but we didn’t have much customer data to work with. At the time, we had limited customer access, very little feedback from Target Assessment Scientists, and significant constraints reaching pharma users. Instead of beginning with robust discovery, we decided to build something tangible and use that to begin getting feedback. While I know this isn't best practice (product development should ideally start with user discovery), our situation called for deviations from the traditionally “good” product development practice.</p>
+      <p class="middle">To keep up with the rising use of LLMs and chat-based tools, the company made a strategic decision to build a conversational AI interface, meaning every user interaction would begin with a chat-based entry point. This wasn’t just a new design pattern for us; it was an entirely unfamiliar paradigm. None of our previous products were conversational, and we were now tasked with building an experience around LLMs for the very first time. Our team had varied levels of understanding when it came to language models, and no one had direct experience with prompt design or architecting AI-driven workflows. We were learning everything from technical foundations to user experience considerations, in real time. Naturally, this slowed our momentum and compounded uncertainty, especially as we tried to balance strategic ambition with the practical realities of learning-by-doing.</p>
+      <p class="end">These circumstances caused us to follow an unconventional design process. You will see that where we started in the designs evolved a lot to what is outlined above in the solution.</p>
+
+      <h4>Phase 1: Ideate and Test</h4>
+      <h5>Picking an area of focus</h5>
+      <p>We began by grounding our work in what we already knew. Without direct access to Target Assessment Scientists, we collected and synthesized questions we believed scientists would need to answer during the target selection phase of the drug discovery funnel. These questions were mapped out in a collaborative Miro board, where we identified key decision points and handoffs in the process. To strengthen our assumptions, we invited input from our customer-facing teams, leveraging their domain knowledge and proximity to users to fill in some of the early feedback gaps.</p>
+      <img src="assets/images/target-assessment-key-questions.png" alt="Target assessment key questions" />
+      <p class="end">From this mapping exercise, it became clear that the Target Discovery workflow, defined by the key question, “What are the best targets for my therapeutic area?” was the most promising and viable area for us to focus on. It struck the right balance across several vectors: customer desirability, data availability, and minimal overlap with other product areas.</p>
+      <h5>Defining the experience</h5>
+      <p>With a direction in place, I outlined a user flow of a conversational experience that accepted a disease as input, and would output a list of candidate targets for that disease. The goal was to surface relevant targets while allowing enough flexibility for refinement based on scientific context and preferences.</p>
+      <img src="assets/images/target-assessment-chat-workflow.png" alt="Target assessment chat user flow" />
+      <h5>Designing the output</h5>
+      <p class="middle">At this point, I needed to consider what format the recommended targets would take in the response to the scientist, once they specified the disease via the chat, as demonstrated:</p>
+      <img src="assets/images/target-identification-chat.png" alt="Chat table output" />
+      <p class="middle">I landed on a table to display the targets to provide structured visibility into five key dimensions for each target:
+      <ul class="middle">
+        <li>Disease Mechanism</li>
+        <li>Therapeutic Opportunity</li>
+        <li>Pathways</li>
+        <li>Safety Profile</li>
+        <li>Intellectual Property Status</li>
+      </ul>
+      <p class="middle">This format had multiple advantages. Practically, it allowed us to re-use components we had already developed for the existing Target Prioritization Assistant, helping us reduce overhead and move faster. Strategically, it enabled scientists to compare options side-by-side, helping them build conviction while remaining open to further exploration.</p>
+      <img src="assets/images/target-identification-chat-table.png" alt="Chat table output" />
+      <p class="middle">Originally, I explored having a rating assigned for each category for easy scannability:</p>
+      <img src="assets/images/target-identification-table-ratings.png" alt="Chat table output with ratings" />
+      <p class="middle">However, due to technical constraints and performance concerns for generating these ratings, we proceeded with the following table:</p>
+      <img src="assets/images/target-identification-table-only-no-ratings.png" alt="Chat table output without ratings" />
+      <p class="end">Using this table as the primary output also helped us simplify the technical implementation. Given the newness of the technology both for the company and the team, it was important to contain complexity and validate utility before investing in heavier customization. Our priority was speed to learning, and the table format allowed us to test our assumptions quickly, iterate, and deliver value without overcommitting upfront.</p>
+
+      <h4>Phase 2: Pivot</h4>
+      <p class="middle">Just as we were preparing to move forward with the target identification assistant, a major re-organization reshaped our team. Morale was low, and confusion grew as responsibilities blurred between a newly added Technical Product Manager and the existing Product Manager I had been closely collaborating with. As the technical PM began to take on more influence, decision-making became increasingly unclear.</p>
+      <p class="middle">Shortly after, the Technical Product Manager directed us to pivot. They deemed our concept too similar to an existing product, Target Prioritization - which had recently launched and was not meeting scientists’ expectations. Instead, we were told to focus on Target Assessment, reframing our work around helping scientists assess a pre-existing list of targets rather than providing the scientist with suggested targets. This strategic shift triggered a full round of rethinking: new hypotheses, user testing, and multiple design iterations.</p>
+      <p class="middle">We made a number of feature decisions:</p>
+      <h5>Updating the chat experience for target assessment</h5>
+      <p class="middle">Originally, the chat experience asked scientists to input only a disease, which generated a list of potential targets. While this aligned with earlier goals around <i>target identification</i>, it didn’t support the deeper <i>target assessment</i> workflow we pivoted toward, where scientists already have candidate targets in mind and are looking to evaluate their viability.</p>
+      <p class="middle">To better serve this need, we updated the chat to allow users to input up to five specific targets along with a disease context. This shift repositioned the chat from being a discovery tool to being an assessment tool. The purpose was to help scientists decide whether a target was worth pursuing by delivering detailed information on each target’s biological relevance, safety considerations, and supporting evidence.</p>
+      <img src="assets/images/target-assessment-chat-target-and-disease.gif" alt="Chat input with targets and disease" />
+      <h5>Introducing the target overview</h5>
+      <p class="middle">To help scientists build a high-level understanding of their selected targets before diving into detailed evidence, I introduced a landing page called target overview, summarizing general information about each target in the context of the selected disease.</p>
+      <p class="middle">The original vision included LLM-generated summaries of the causality and safety data, allowing scientists to quickly grasp emerging trends and key signals at a glance. However, due to technical complexity and performance limitations, this summarization was descoped from the initial release. As a result, the overview focused on presenting available target metadata and acting as a launch point for deeper exploration.</p>
+      <img src="assets/images/target-overview.png" alt="Target Overview" />
+      <h5>Creating data modules focused on scientist priorities</h5>
+      <p class="middle">To support deeper evaluation, we created dedicated data modules that focused on the two areas scientists care most about when assessing targets: causality and safety.</p>
+      <p class="middle">These modules pulled from our internal datasets and were structured to surface meaningful patterns, not just raw information. For example, in the causality module, studies were grouped by the effect on disease (improved, worsened, or unknown) and target modulation (increase or decrease), giving scientists a clearer sense of trends and consistency in the evidence. Each group could be expanded to reveal individual data points, allowing users to toggle between summary and detail as needed.</p>
+      <img src="assets/images/data-modules-chat.gif" alt="Preclinical, clinical and safety data modules" />
+      <h5>Introducing ratings and notes for scientist-driven conclusions</h5>
+      <p class="middle">To support scientists in forming and documenting their own assessments, we introduced the ability to add ratings and notes directly within each data module. After reviewing the evidence, scientists could assign subjective ratings (e.g., strength of causality or risk) and capture qualitative observations.</p>
+      <p class="middle">This feature was designed to help scientists externalize their thinking and track insights as they moved through the assessment, acting as a lightweight, in-context layer of interpretation. Our goal was to bring structure to the decision-making process while giving scientists flexibility to express nuance in their conclusions.</p>
+      <img class="end" src="assets/images/notes-and-ratings.gif" alt="Notes and ratings" />
+    
+      <h4>Phase 3: From Internal Iteration to Real-World Feedback</h4>
+      <p class="middle">After months of internal iteration, including a major pivot in direction, we reached a point where continuing to tweak the experience without customer input became a greater risk than moving forward. We had no concrete validation from users, and both expanding scope and iterating further were unlikely to produce meaningful new insights.</p>
+      <p class="middle">With engineering ready to begin implementation and the sales team actively preparing for beta conversations, I handed off the designs and built a prototype to support early feedback sessions with real customers. These sessions were invaluable in surfacing key usability issues and assumptions that hadn't been tested earlier:</p>
+      <h5>The overview page didn’t deliver immediate value</h5>
+      <p class="middle">Without implementing LLM summarization, the overview page served mostly as a placeholder with generic “View data” call-to-actions. Scientists were left asking, “You say this is a target assessment, but where is the assessment?” The lack of actionable insight on this page failed to meet expectations and reduced trust in the tool.</p>
+      <img src="assets/images/target-overview-expanded.png" alt="Expanded target overview" />
+      <h5>Grouped rows were not discoverable</h5>
+      <p class="middle">To reduce cognitive load, I grouped the data in the tables, but this unintentionally obscured the value of the content. Scientists didn’t immediately grasp what was being shown, and the disclosure triangle used to expand the groups was too subtle and often overlooked. In addition to the usability concerns, the technical complexity of supporting grouped rows led us to simplify the design and display the data more openly.</p>
+      <img src="assets/images/grouped-rows.gif" alt="Grouped rows" />
+      <h5>Notes weren’t useful, and introduced hesitation</h5>
+      <p class="middle">​​The notes feature was intended to let scientists record observations, but both early testing and customer conversations revealed it wasn’t aligned with their workflows. Most scientists preferred using their existing electronic lab notebooks and were hesitant to leave comments in-app, especially without clarity on privacy or visibility. Additionally, assigning structured ratings like “high causality” felt too rigid for the nuance and uncertainty involved in scientific evaluation.</p>
+      <img src="assets/images/notes-and-ratings.gif" alt="Notes and ratings" />
+      <h5>The chat interface felt clunky and limiting</h5>
+      <p class="middle">I designed a conversational interface to guide scientists through target assessment in alignment with the product strategy, but BenchSci lacked the technical expertise to build a truly dynamic, context-aware chat experience. Instead, the chat behaved more like a rigid decision tree, with pre-defined prompts and hardcoded responses. On average, it took two minutes to get to any meaningful output, which was far too slow, especially when users were accustomed to more responsive tools like ChatGPT. Many dropped off before completing the assessment.</p>
+      <img class="end" src="assets/images/target-assessment-chat-target-and-disease.gif" alt="Chat interface" />
+
+      <h4>Phase 4: Re-focus and Iterate</h4>
+      <h5>Refocusing on the right persona</h5>
+      <p class="middle">Early in the project, limited access to scientists meant we spoke with whoever was available at our customer organizations. This often included adjacent roles, like Assay Developers, who collaborate with Target Assessment Scientists but have different goals and data needs. As a result, we gathered feedback from a mix of personas, leading to conflicting requirements and an unfocused product direction.</p>
+      <p class="middle">Target Assessment sits at the top of the drug discovery funnel and influences many downstream decisions. While the core user is the Target Assessment Scientist, they often collaborate with specialists like Risk Analysts and Translational Scientists, each with their own deep domain expertise. Designing for everyone at once led us to build solutions that were too broad and failed to provide clear value to any one user.</p>
+      <p class="middle">To address this, I facilitated a workshop with the team to realign around a single, clearly defined persona: the Target Assessment Scientist. I developed both a detailed persona and workflow map, which helped us clarify the key decisions, pain points, and functional needs of our core user while still acknowledging where collaborators fit into the broader process.</p>
+      <img src="assets/images/target-assessment-scientist-persona.png" alt="Target assessment scientist user persona" />
+      <img class="end" src="assets/images/target-assessment-scientist-workflow.png" alt="Target assessment workflow" />
+      <h5>Bringing value upfront through the use of visualizations</h5>
+      <p class="middle">The original Target Overview page wasn’t delivering. It lacked enough substance to keep scientists engaged, but overloading it with raw data risked overwhelming them. I knew we needed a better balance; something that conveyed meaningful insights at a glance, while inviting deeper exploration.</p>
+      <p class="middle">To achieve this, I explored several more visual-forward concepts, including:</p>
+      <ol class="emphasis">
+        <li>AI-generated ratings summarizing therapeutic potential</li>
+          <img class="start" src="assets/images/target-assessment-automatic-ratings.gif" alt="Target overview page with automatically generated ratings" />
+        </li>
+        <li>Graphical summaries of key evidence themes
+          <img class="start" src="assets/images/target-assessment-graph-explorations.gif" alt="Graphical summary" />
+        </li>
+      </ol>
+      <p class="middle">I iterated on many different visualizations, varying the way we grouped and summarized data, as well as the type of graph used. We tested multiple variations to find the sweet spot.</p>
+      <img src="assets/images/target-assessment-graph-ideation.png" alt="Different explorations for the graphs" />
+      <p class="middle">Once we saw strong qualitative signals that visualizations resonated with users, I knew static Figma prototypes weren’t enough. I needed to understand how scientists would actually interact with the content; how they would navigate, compare targets, and move between visual summaries and underlying data.</p>
+      <p class="middle">That’s when I began building an 
+        <a href="https://target-assessment-prototype.vercel.app/" target="blank">interactive prototype</a> using Bolt and v0 <i>(password: ascend2025)</i>. This allowed us to simulate real workflows and gather higher-fidelity feedback.</p>
+      <img src="assets/images/target-assessment-bolt-prototype-1.gif" alt="bolt prototype of target assessment" />
+      <img src="assets/images/target-assessment-bolt-prototype-2.gif" alt="bolt prototype of target assessment" />
+      <p class="middle">If you’re curious to see how I collaborated with my team, here’s an example of a walkthrough I gave working on iterations of the safety data in v0:</p>
+      <video controls width="100%">
+        <source src="assets/clips/safety-graphs-ideation-walkthrough.mp4" type="video/mp4" />
+      </video>
+      <h5>Switch to structured input</h5>
+      <p class="middle">As mentioned above, our original chat-like input created confusion. Scientists assumed they were interacting with a smart assistant that could handle flexible, contextual queries, but the system was limited to predefined flows, which led to unmet expectations and friction. To address this, I replaced the chat interface with a structured input form that made system expectations clear. No guesswork, no confirmation loops, just straightforward entry fields that showed users exactly what was understood. I tested three variations:</p>
+      <ol class="emphasis">
+        <li>Single freeform field for both
+          <img class="start" src="assets/images/input-single-field.png" alt="Single input field for both" />
+        </li>
+        <li>Multiple target fields and a disease field (most overwhelming)
+          <img class="start" src="assets/images/input-target-multiple-fields.png" alt="Multiple target fields and a disease field" />
+        </li>
+        <li>Separate fields for targets and disease (best performance)
+          <img class="start" src="assets/images/input-separate-target-disease.png" alt="Separate fields for targets and disease" />
+        </li>
+      </ol>
+      <p class="middle">The version with a field for targets and another for disease struck the best balance — it guided input without overcomplicating the experience, and helped scientists understand system limitations without discouraging use.</p>
+      <p class="end">After implementation we saw the following impact: Merck users entered data 30 seconds faster, with a 5.37% boost in conversion. GSK users completed the same task 1 minute 30 seconds faster, with a 3.07% lift in conversion.</p>
+
+      <h4>Learnings</h4>
+      <h5>Clear decision ownership is crucial</h5>
+      <p class="middle">When multiple people act as product managers, accountability blurs. Spending time to define the roles and responsibilities helped temporarily, but it wasn’t until we had a single decision-maker that alignment and momentum improved.</p>
+      <h5>Design heuristics and research combined result in stronger advocacy</h5>
+      <p class="middle">Combining user insights with design best practices helped us push key decisions, like having each row in the data tables correspond to a publication. When we couldn’t clearly connect ideas to user needs, like with notes and ratings, we lost traction. The takeaway: build arguments on both user desire and real-world mental models.</p>
+      <h5>Start smaller</h5>
+      <p class="middle">The project grew too big too fast. Without enough external feedback, internal voices filled the void, often without alignment. We should’ve launched a stripped-down MVP (e.g., a simple prioritization table or causality view) and built iteratively from there. Smaller chunks would have resulted in faster feedback and easier planning.</p>
+      <h5>Focus on one core persona</h5>
+      <p class="middle">Target Assessment Scientists were our primary audience, but we tried to please too many related roles. That diluted the value. Centering the experience around one clear persona gave us clarity and made the product stronger.</p>
+      <h5>Rapid testing wins</h5>
+      <p class="end">Quickly discarding ideas that didn’t work (and testing many with Bolt/V0) helped us iterate more confidently. This approach reduced reliance on static design tools and allowed validation through real interactions, without the need for engineering capacity.</p> 
+      
+      <h4>Concluding Thoughts</h4>
+      <p class="end"><b>This project pushed me to rethink how to design for scientific decision-making. Having the right data presented at the right level of granularity enabled us to build trust with the scientists, and pushed me to build a better interface.</b> I learned that clarity, focus, and iteration are more powerful than complexity. By grounding decisions in real user behavior, leaning on design and research together, and testing smarter, we delivered something that fundamentally simplifies scientists’ work. The path wasn’t linear nor was it “best practice”, but the learnings shaped not only the product, but how to work as a team.</p>
+    </main>
+
+    <footer class="footer">
+      <h3>more work</h3>
+      <div class="more-projects">
+        <a href="design-maturity-scorecard.html">
+          <img src="assets/images/design-maturity-scorecard.svg"/>
+        </a>
+        <a href="order-collaboration.html">
+          <img src="assets/images/order-collaboration.svg"/>
+        </a>
+        <a href="strategic-partnership.html">
+            <img src="assets/images/strategic-partnership.svg"/>
+        </a>
+        <a href="bom-versioning.html">
+          <img src="assets/images/bom-versioning.svg"/>
+        </a>
+      </div>
+
+      <h3>contact</h3>
+      <div class="contact">
+        <a class="contact" href="mailto:emily.w.sin@gmail.com"><img src="assets/images/email.svg"/><p>emily.w.sin@gmail.com</p></a>
+        <a class="contact" href="https://www.linkedin.com/in/emilysin/" target="blank"><img src="assets/images/linkedin.svg"/><p>linkedin.com/in/emilysin/</p></a>
+        <a class="contact" href="https://github.com/sinemily" target="blank"><img src="assets/images/github.svg"/><p>github.com/sinemily</p></a>
+        <a class="contact" href="https://www.youtube.com/emilysin" target="blank"><img src="assets/images/youtube.svg"/><p>youtube.com/emilysin</p></a>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
