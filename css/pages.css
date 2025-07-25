@@ -1,4 +1,8 @@
 /* Work */
+.work{
+  background-image: linear-gradient(var(--background-1), var(--background-2));
+}
+
 .work .content .name{
     margin-bottom: 360px;
 }
@@ -60,10 +64,10 @@
   align-items: center;
   }
   .order-collaboration .content div.sketch1 img.pic1{
-    width: 50%;
+    width: 48%;
   }
   .order-collaboration .content img.pic2{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
   .order-collaboration .content div.sketch3{
@@ -80,7 +84,6 @@
 }
 
 .order-collaboration .content img.wireframes{
-  box-shadow: 0 0 10px var(--lightgrey);
   padding-bottom: 0;
   margin-bottom: 40px;
 }
@@ -161,19 +164,21 @@
   .design-maturity-scorecard div.download-button{
     display:flex;
     justify-content: center;
+    margin-top: 24px;
     margin-bottom: 80px;
   }
   
   .design-maturity-scorecard a.download-button{
-    font-weight: 500;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
     color:white;
-    background-color: var(--dustyrose);
     border-radius: 4px;
+    border: solid 1px var(--primary-interactive);
     padding: 8px 16px;
   }
 
   .design-maturity-scorecard a.download-button:hover{
-    background-color: var(--burgundy);
+    background-color: var(--primary-interactive);
   }
 
   .design-maturity-scorecard img.scorecard-display{
@@ -208,40 +213,41 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 16px 16px 16px 24px;
-    margin: 16px 16px 16px 0;
-    width: 340px;
+    padding: 16px 16px 16px 32px;
+    margin: 16px;
+    width: 312px;
     height: 40px;
-    border-radius: 40px;
+    border-radius: 9999px;
   }
 
   .contact .content .contact-info a.mail{
-    background-color: rgb(216, 172, 155, 0.5);
+    background-image: linear-gradient(45deg, var(--accent-1), var(--accent-2));
   }
 
   .contact .content .contact-info a.linkedin{
-    background-color: rgb(178, 220, 214, 0.5);
+    background-image: linear-gradient(45deg, var(--accent-3), var(--accent-4));
   }
 
   .contact .content .contact-info a.github{
-    background-color: rgb(255, 217, 141, 0.5);
+    background-image: linear-gradient(90deg, var(--accent-5), var(--accent-6));
   }
 
   .contact .content .contact-info a.youtube{
-    background-color: rgb(182, 116, 116, 0.5);
+    background-image: linear-gradient(45deg, var(--accent-2), var(--accent-1));
   }
 
   .contact .content .contact-info .contact-link img{
-    width: 48px;
+    width: 30px;
     padding: 0;
   }
 
   .contact .content .contact-info .contact-link p{
+    font-family: 'Syne', sans-serif;
     font-size: 1.2em;
     font-weight: 600px;
     letter-spacing: 1.5px;
-    padding: 24px;
-    color: black;
+    padding: 24px 24px 24px 16px;
+    color: var(--primary-font);
     margin: 0;
   }
 
@@ -251,7 +257,7 @@
   }
 
   .contact .content .contact-info a.contact-link{
-    width: 270px;
+    width: 272px;
   }
 
   .contact .content .contact-info .contact-link img{
@@ -262,7 +268,7 @@
   .contact .content .contact-info .contact-link p{
     font-size: 1em;
     font-weight: 500px;
-    color: black;
+    color: var(--primary-font);
     padding: 24px 24px 24px 16px;
   }
 }
@@ -302,21 +308,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  padding: 32px;
+  justify-content: space-between;
 }
 
 .strategic-partnership .content div.navigation-row div img{
   width: 88px;
+  padding-top: 32px;
   padding-bottom: 16px;
 }
 
 .strategic-partnership .content div.navigation-row div p{
-  color: black;
+  color: var(--primary-font);
+  font-family: 'Syne', sans-serif;
   font-size: 0.75em;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.75px;
   margin: 0;
   padding: 0;
 }

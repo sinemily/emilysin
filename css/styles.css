@@ -10,11 +10,26 @@
   --darkblue: #022248;
   --grey: #ABABAB;
   --lightgrey: #E6E6E6;
+
+  --primary-font: #FFFFFF;
+  --secondary-font: #52DF91;
+  --tertiary-font: #F099F8;
+  --primary-interactive: #52DF91;
+  --secondary-interactive: #F099F8;
+  --background-1: #502B95;
+  --background-2: #1B0D38;
+  --accent-1: #52DF91;
+  --accent-2: #2C794F;
+  --accent-3: #F099F8;
+  --accent-4: #EF7E38;
+  --accent-5: #91B9FF;
+  --accent-6: #8148F9;
 }
 
 /* Utilities */
 body {
   overflow-x: hidden;
+  background: var(--background-2);
 }
 
 @media only screen and (max-width: 655px) {
@@ -44,6 +59,7 @@ body {
 
 a{
   text-decoration: none;
+  color: var(--secondary-interactive);
 }
 
 /* Header */
@@ -80,10 +96,10 @@ a{
 }
 
 .header .site .unlist li a{
+  font-family: 'Syne', sans-serif;
   font-size: 1.25em;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: black;
+  font-weight: 600;
+  color: var(--primary-font);
 }
 
 @media only screen and (min-width: 656px) {
@@ -93,85 +109,83 @@ a{
 }
 
 .header .site .unlist li a.nav-button{
-  border: solid 1px black;
+  border: solid 1px var(--primary-interactive);
   border-radius: 4px;
   padding: 8px 16px;
 }
 
 .header .site .unlist li a.nav-button:hover{
-  border: solid 1px var(--dustyrose);
+  border: solid 1px var(--primary-interactive);
   color: white;
-  background-color: var(--dustyrose);
+  background-color: var(--primary-interactive);
   margin-right: 20px;
 }
 
 .header .site .unlist li a.active{
-  border-bottom: 4px solid;
+  border-bottom: 4px solid var(--primary-interactive);
   padding-bottom: 3px;
 }
 
 .header .site .unlist li a.nav-link:hover{
-  color: var(--dustyrose);
-  border-bottom: 4px solid var(--dustyrose);
+  color: var(--primary-interactive);
   padding-bottom: 3px;
 }
 
 /* Body */
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Be+Vietnam+Pro', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: var(--primary-font);
 }
 
 h1{
-  font-family: 'Roboto', sans-serif;
-  font-size: 7em;
+  font-family: 'Syne', sans-serif;
+  font-size: 8.5em;
   margin: 220px 0 24px 0;
-  font-weight: 200;
+  font-weight: 700;
   padding: 0;
   line-height: 1;
-  letter-spacing: 2px;
   text-align: center;
+  color: var(--primary-font);
 }
 
 h2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 3em;
-  font-weight: 500;
+  font-family: 'Syne', sans-serif;
+  font-size: 3.5em;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   line-height: 1.25;
-  letter-spacing: 1px;
   text-align: center;
-  
+  color: var(--primary-font);
 }
 
 h3{
-  font-size: 1.25em;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: black;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--secondary-font);
   margin: 80px 0 64px 0;
   padding-bottom: 16px;
   text-align: center;
-  border-bottom: 1px solid grey;
-  text-transform: lowercase;
-}
-
-h4{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  font-weight: 600;
-  padding-bottom: 32px;
-  color: var(--darkblue);
-  letter-spacing: 1.5px;
-  margin: 0;
+  border-bottom: 1px solid var(--primary-interactive);
   text-transform: uppercase;
 }
 
+h4{
+  font-family: 'Syne', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-bottom: 32px;
+  color: var(--secondary-font);
+  margin: 0;
+}
+
 h4.trigger{
-  font-size: 0.75em;
-  color: var(--dustyrose);
+  font-family: 'Be+Vietnam+Pro', sans-serif;
+  font-size: 0.9em;
+  color: var(--secondary-interactive);
   margin: 0;
   padding: 0 0 24px;
 }
@@ -181,13 +195,12 @@ h4.special-trigger{
 }
 
 h5{
-  font-size: 0.85em;
-  color: grey;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.15em;
+  color: var(--primary-font);
   margin: 0;
   padding: 8px 0 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+  font-weight: 700;
 }
 
 .content ul{
@@ -215,6 +228,7 @@ p.start{
 }
 
 p.quote{
+  font-family: 'Be+Vietnam+Pro', sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 1.25em;
@@ -236,7 +250,7 @@ p.audio-caption{
   font-style: italic;
   font-weight: 500;
   font-size: 0.9em;
-  color: var(--darkblue);
+  color: var(--primary-font);
 }
 
 ol.emphasis{
@@ -268,11 +282,12 @@ ol.emphasis{
 .content h5.showcase{
   text-align: center;
   padding-top: 40px;
-  border-top: 1px solid var(--grey);
+  border-top: 1px solid var(--primary-interactive);
   margin-top: 16px;
 }
 
 .content p.showcase{
+  font-family: 'Be+Vietnam+Pro', sans-serif;
   text-align: center;
   font-style: italic;
   font-weight: 300;
@@ -404,11 +419,11 @@ ol.emphasis{
   font-weight: 500px;
   letter-spacing: 1.5px;
   padding-left: 16px;
-  color: black;
+  color: var(--primary-font);
 }
 
 .footer .contact p:hover{
-  color: var(--dustyrose);
+  color: var(--primary-interactive);
 }
 
 .backgrounds .background{

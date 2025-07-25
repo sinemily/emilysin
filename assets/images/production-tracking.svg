@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="99px" height="93px" viewBox="0 0 99 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>production-tracking</title>
-    <desc>Created with Sketch.</desc>
-    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="production-tracking" transform="translate(2.000000, 0.000000)">
-            <circle id="Oval" fill-opacity="0.7" fill="#F9CB6F" opacity="0.5" cx="50.5" cy="46.5" r="46.5"></circle>
-            <polygon id="Rectangle" stroke="#000000" stroke-width="3" stroke-linejoin="round" points="0 19.3703704 34 35.7407407 34 78 0 62.1851852"></polygon>
-            <polyline id="Line-11" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="0 19.3703704 34 3 49.0178866 10.2308343 68 19.3703704"></polyline>
-            <line x1="17.5" y1="27.5" x2="50.3703704" y2="10.5555556" id="Line-11" stroke="#000000" stroke-width="3" stroke-linejoin="round"></line>
-            <path d="M68,20 L68.0003209,39.6650282 C66.4673071,39.8841636 65.2546899,41.0967033 65.0354373,42.6296794 L65.0354373,42.6296794 L55,42.6296296 C54.4477153,42.6296296 54,43.0773449 54,43.6296296 L54,43.6296296 L54,69.036 L34,77.9259259 L34,36.3703704 L68,20 Z" id="Combined-Shape" stroke="#000000" stroke-width="3" stroke-linejoin="round"></path>
-            <path d="M77.5,39.6296296 C79.2632532,39.6296296 80.7219693,40.9335081 80.9645627,42.6296794 L90,42.6296296 C90.5522847,42.6296296 91,43.0773449 91,43.6296296 L91,86.6296296 C91,87.1819144 90.5522847,87.6296296 90,87.6296296 L55,87.6296296 C54.4477153,87.6296296 54,87.1819144 54,86.6296296 L54,43.6296296 C54,43.0773449 54.4477153,42.6296296 55,42.6296296 L65.0354373,42.6296794 C65.2780307,40.9335081 66.7367468,39.6296296 68.5,39.6296296 L77.5,39.6296296 Z" id="Combined-Shape" stroke="#000000" stroke-width="3"></path>
-            <rect id="Rectangle" stroke="#000000" stroke-width="3" x="65" y="39" width="16" height="7" rx="3.5"></rect>
-            <polyline id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="60 57 62 59 67 53"></polyline>
-            <line x1="72" y1="54" x2="81" y2="54" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-            <line x1="72" y1="58" x2="85" y2="58" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-            <line x1="72" y1="63.5" x2="81" y2="63.5" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-            <line x1="72" y1="67.5" x2="85" y2="67.5" id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-            <polyline id="Line-12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="60 67 62 69 67 63"></polyline>
-            <rect id="Rectangle" stroke="#000000" stroke-width="2" x="60" y="75" width="6" height="6" rx="1"></rect>
-        </g>
-    </g>
+<svg width="99" height="93" viewBox="0 0 99 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.5" cx="52.5" cy="46.5" r="46.5" fill="#F099F8" fill-opacity="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2 19.3704L36 35.7407V78L2 62.1852V19.3704Z" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+<path d="M2 19.3704L36 3L51.0179 10.2308L70 19.3704" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.5 27.5L52.3704 10.5555" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+<mask id="path-5-inside-1_643_14514" fill="white">
+<path d="M76.5 36C78.7389 36 80.6344 37.4714 81.2715 39.5H89.5C90.8807 39.5 92 40.6193 92 42V85C92 86.3807 90.8807 87.5 89.5 87.5H54.5C53.1193 87.5 52 86.3807 52 85V42C52 40.6193 53.1193 39.5 54.5 39.5H62.7285C63.3656 37.4714 65.2611 36 67.5 36H76.5ZM55 42.5V84.5H89V42.5H81.2715C80.6344 44.5286 78.7389 46 76.5 46H67.5C65.2611 46 63.3656 44.5286 62.7285 42.5H55ZM67.5 39C66.3954 39 65.5 39.8954 65.5 41C65.5 42.1046 66.3954 43 67.5 43H76.5C77.6046 43 78.5 42.1046 78.5 41C78.5 39.8954 77.6046 39 76.5 39H67.5Z"/>
+</mask>
+<path d="M76.5 36C78.7389 36 80.6344 37.4714 81.2715 39.5H89.5C90.8807 39.5 92 40.6193 92 42V85C92 86.3807 90.8807 87.5 89.5 87.5H54.5C53.1193 87.5 52 86.3807 52 85V42C52 40.6193 53.1193 39.5 54.5 39.5H62.7285C63.3656 37.4714 65.2611 36 67.5 36H76.5ZM55 42.5V84.5H89V42.5H81.2715C80.6344 44.5286 78.7389 46 76.5 46H67.5C65.2611 46 63.3656 44.5286 62.7285 42.5H55ZM67.5 39C66.3954 39 65.5 39.8954 65.5 41C65.5 42.1046 66.3954 43 67.5 43H76.5C77.6046 43 78.5 42.1046 78.5 41C78.5 39.8954 77.6046 39 76.5 39H67.5Z" fill="#F1DBF3"/>
+<path d="M81.2715 39.5L78.4093 40.3989L79.0692 42.5H81.2715V39.5ZM92 42L95 42L92 42ZM89.5 87.5L89.5 90.5L89.5 87.5ZM52 85L49 85L52 85ZM54.5 39.5L54.5 36.5L54.5 39.5ZM62.7285 39.5V42.5H64.9308L65.5907 40.3989L62.7285 39.5ZM55 42.5V39.5H52V42.5H55ZM55 84.5H52V87.5H55V84.5ZM89 84.5V87.5H92V84.5H89ZM89 42.5H92V39.5H89V42.5ZM81.2715 42.5V39.5H79.0692L78.4093 41.6011L81.2715 42.5ZM62.7285 42.5L65.5907 41.6011L64.9308 39.5H62.7285V42.5ZM76.5 36V39C77.3914 39 78.1537 39.5851 78.4093 40.3989L81.2715 39.5L84.1337 38.6011C83.115 35.3577 80.0864 33 76.5 33V36ZM81.2715 39.5V42.5H89.5V39.5V36.5H81.2715V39.5ZM89.5 39.5V42.5C89.2239 42.5 89 42.2761 89 42L92 42L95 42C95 38.9624 92.5376 36.5 89.5 36.5V39.5ZM92 42H89V85H92H95V42H92ZM92 85H89C89 84.7239 89.2239 84.5 89.5 84.5L89.5 87.5L89.5 90.5C92.5376 90.5 95 88.0376 95 85H92ZM89.5 87.5V84.5H54.5V87.5V90.5H89.5V87.5ZM54.5 87.5V84.5C54.7761 84.5 55 84.7239 55 85L52 85L49 85C49 88.0376 51.4624 90.5 54.5 90.5V87.5ZM52 85H55V42H52H49V85H52ZM52 42H55C55 42.2761 54.7761 42.5 54.5 42.5L54.5 39.5L54.5 36.5C51.4624 36.5 49 38.9624 49 42H52ZM54.5 39.5V42.5H62.7285V39.5V36.5H54.5V39.5ZM62.7285 39.5L65.5907 40.3989C65.8463 39.5851 66.6086 39 67.5 39V36V33C63.9136 33 60.885 35.3577 59.8663 38.6011L62.7285 39.5ZM67.5 36V39H76.5V36V33H67.5V36ZM55 42.5H52V84.5H55H58V42.5H55ZM55 84.5V87.5H89V84.5V81.5H55V84.5ZM89 84.5H92V42.5H89H86V84.5H89ZM89 42.5V39.5H81.2715V42.5V45.5H89V42.5ZM81.2715 42.5L78.4093 41.6011C78.1537 42.4149 77.3914 43 76.5 43V46V49C80.0864 49 83.115 46.6423 84.1337 43.3989L81.2715 42.5ZM76.5 46V43H67.5V46V49H76.5V46ZM67.5 46V43C66.6086 43 65.8463 42.4149 65.5907 41.6011L62.7285 42.5L59.8663 43.3989C60.885 46.6423 63.9136 49 67.5 49V46ZM62.7285 42.5V39.5H55V42.5V45.5H62.7285V42.5ZM67.5 39V36C64.7386 36 62.5 38.2386 62.5 41H65.5H68.5C68.5 41.5523 68.0523 42 67.5 42V39ZM65.5 41H62.5C62.5 43.7614 64.7386 46 67.5 46V43V40C68.0523 40 68.5 40.4477 68.5 41H65.5ZM67.5 43V46H76.5V43V40H67.5V43ZM76.5 43V46C79.2614 46 81.5 43.7614 81.5 41H78.5H75.5C75.5 40.4477 75.9477 40 76.5 40V43ZM78.5 41H81.5C81.5 38.2386 79.2614 36 76.5 36V39V42C75.9477 42 75.5 41.5523 75.5 41H78.5ZM76.5 39V36H67.5V39V42H76.5V39Z" fill="white" mask="url(#path-5-inside-1_643_14514)"/>
+<path d="M59.5 55.3704L61.5 57.3704L66.5 51.3704" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.5 52.3704H80.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.5 56.3704H84.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.5 61.8704H80.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.5 65.8704H84.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M59.5 65.3704L61.5 67.3704L66.5 61.3704" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="59.5" y="73.3704" width="6" height="6" rx="1" stroke="white" stroke-width="2"/>
+<path d="M69.3496 18.6485C69.8142 18.4249 70.3612 18.4553 70.7979 18.7295C71.2346 19.004 71.5 19.4842 71.5 20V36.6299H70.5C69.8016 36.6299 69.1299 36.7415 68.5 36.9453V22.3867L37.5 37.3125V75.6172L53 68.7285V72.0117L36.6094 79.2969C36.1454 79.5031 35.6084 79.4603 35.1826 79.1836C34.7569 78.9069 34.5 78.4335 34.5 77.9258V36.3701C34.5001 35.794 34.8305 35.2685 35.3496 35.0186L69.3496 18.6485Z" fill="white"/>
 </svg>

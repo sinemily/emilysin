@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="27px" height="19px" viewBox="0 0 27 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
-    <title>Group 4</title>
-    <desc>Created with Sketch.</desc>
-    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Mobile" transform="translate(-16.000000, -6417.000000)" stroke="#000000">
-            <g id="Group-4" transform="translate(17.000000, 6418.000000)">
-                <rect id="Rectangle" x="0" y="0" width="25" height="17" rx="2"></rect>
-                <polygon id="Triangle" transform="translate(12.500000, 8.500000) rotate(90.000000) translate(-12.500000, -8.500000) " points="12.5 4.5 16.5 12.5 8.5 12.5"></polygon>
-            </g>
-        </g>
-    </g>
+<svg width="54" height="38" viewBox="0 0 54 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="youtube">
+<rect id="Rectangle" x="2" y="2" width="50" height="34" rx="4" stroke="white" stroke-width="2"/>
+<path id="Triangle" fill-rule="evenodd" clip-rule="evenodd" d="M35.2111 18.1056C35.9482 18.4741 35.9482 19.5259 35.2111 19.8944L22.4472 26.2764C21.7823 26.6088 21 26.1253 21 25.382V12.618C21 11.8747 21.7823 11.3912 22.4472 11.7236L35.2111 18.1056Z" stroke="white" stroke-width="1.5"/>
+</g>
 </svg>
