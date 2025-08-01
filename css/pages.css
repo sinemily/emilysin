@@ -4,7 +4,36 @@
 }
 
 .work .content .name{
-    margin-bottom: 360px;
+    margin: 80px 0 80px 0;
+}
+
+.work img.profile-picture{
+    width: 344px;
+    height: 344px;
+  }
+
+@media only screen and (min-width: 1024px) {
+  .work .column {
+    width: 48%;
+  }
+  .work .content .name{  
+    display: flex;
+    justify-content: space-between;
+  }
+  .work .content .introduction{
+    padding-right: 40px;
+  }
+  .work .tiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .work img.profile-picture{
+    margin: 24px auto;
+  }
 }
 
 .work .content .circles{
@@ -14,18 +43,8 @@
 .work .content .circles{
   justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
 }
-
-/* @media only screen and (min-width: 1101px) {
-  .work .content .name{
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-  }
-  .work .content .name h2{
-    padding-left: 16px;
-  }
-} */
 
 .work .content .circles img.main-circle{
   height: 250px;
@@ -33,6 +52,12 @@
 
 .work .content .circles img:hover{
   transform: translateY(-4px);
+  transition: 0.5s ease;
+}
+
+.work .content .tiles img:hover{
+  transform: translateY(-4px);
+  transition: 0.5s ease;
 }
 
 /* Order Collaboration */
@@ -239,11 +264,13 @@
   .contact .content .contact-info .contact-link img{
     width: 30px;
     padding: 0;
+    margin: 0;
+    border-radius: 0px;
   }
 
   .contact .content .contact-info .contact-link p{
     font-family: 'Syne', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600px;
     letter-spacing: 1.5px;
     padding: 24px 24px 24px 16px;
@@ -266,27 +293,16 @@
   }
 
   .contact .content .contact-info .contact-link p{
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 500px;
     color: var(--primary-font);
     padding: 24px 24px 24px 16px;
   }
 }
 
-.contact .content .contact-info a.mail:hover{
-  background-color: var(--dustyrose);
-}
-
-.contact .content .contact-info a.linkedin:hover{
-  background-color: var(--lightblue);
-}
-
-.contact .content .contact-info a.github:hover{
-  background-color: var(--yellow);
-}
-
-.contact .content .contact-info a.youtube:hover{
-  background-color: var(--burgundy);
+.contact .content .contact-info a:hover{
+  transform: translateY(-4px);
+  transition: 0.5s ease;
 }
 
 /* Strategic Partnership */
@@ -300,7 +316,7 @@
   margin-bottom: 56px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: baseline;
 }
 
@@ -308,13 +324,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .strategic-partnership .content div.navigation-row div img{
   width: 88px;
   padding-top: 32px;
-  padding-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .strategic-partnership .content div.navigation-row div p{
@@ -324,5 +340,5 @@
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
-  padding: 0;
+  padding: 0 16px;
 }

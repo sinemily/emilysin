@@ -30,6 +30,7 @@
 body {
   overflow-x: hidden;
   background: var(--background-2);
+  margin: 80px auto;
 }
 
 @media only screen and (max-width: 655px) {
@@ -45,7 +46,7 @@ body {
   .container{
     margin: 80px auto;
     padding: 0 80px;
-    max-width: 850px;
+    max-width: 1200px;
   }
   .container .content .mobile{
     display: none;
@@ -134,30 +135,28 @@ a{
 /* Body */
 body{
   font-family: 'Be+Vietnam+Pro', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: var(--primary-font);
 }
 
 h1{
   font-family: 'Syne', sans-serif;
-  font-size: 8.5em;
-  margin: 220px 0 24px 0;
+  font-size: 3.75em;
   font-weight: 700;
+  margin: 0 0 24px 0;
   padding: 0;
   line-height: 1;
-  text-align: center;
   color: var(--primary-font);
 }
 
 h2{
   font-family: 'Syne', sans-serif;
-  font-size: 3.5em;
+  font-size: 1.5em;
   font-weight: 300;
-  margin: 0;
+  margin: 0 0 16px 0;
   padding: 0;
   line-height: 1.25;
-  text-align: center;
   color: var(--primary-font);
 }
 
@@ -168,7 +167,6 @@ h3{
   color: var(--secondary-font);
   margin: 80px 0 64px 0;
   padding-bottom: 16px;
-  text-align: center;
   border-bottom: 1px solid var(--primary-interactive);
   text-transform: uppercase;
 }
@@ -259,12 +257,12 @@ ol.emphasis{
 
 @media only screen and (max-width: 655px) {
   h1{
+    font-size: 2.5em;
     text-align: center;
-    font-size: 4.25em;
   }
   h2{
+    font-size: 1.25em;
     text-align: center;
-    font-size: 2.25em;
   }
 }
 
@@ -352,7 +350,8 @@ ol.emphasis{
 .content img{
   display: block;
   width: 100%;
-  padding: 8px 0 48px;
+  margin: 8px 0 48px;
+  border-radius: 12px;
 }
 
 .content img.end{
@@ -388,11 +387,12 @@ ol.emphasis{
   align-items: center;
   margin: 0 auto;
   padding-bottom: 32px;
+  max-width: 900px;
 }
 
 .footer .more-projects a img{
   height: 240px;
-  padding: 24px;
+  padding: 16px;
 }
 
 .footer .more-projects a img:hover{
