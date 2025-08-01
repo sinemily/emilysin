@@ -352,6 +352,7 @@ ol.emphasis{
   width: 100%;
   margin: 8px 0 48px;
   border-radius: 12px;
+  box-shadow: 4px 4px 10px var(--background-2);
 }
 
 .content img.end{
