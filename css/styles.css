@@ -1,16 +1,5 @@
 /* Colours */
 :root {
-  --dustyrose: #D8AC9B;
-  --mauve: #B67474;
-  --yellow: #FFD98D;
-  --mustard: #D59F33;
-  --lightblue: #B2DCD6;
-  --burgundy: #B67474;
-  --darkburgundy: #7F4355;
-  --darkblue: #022248;
-  --grey: #ABABAB;
-  --lightgrey: #E6E6E6;
-
   --primary-font: #FFFFFF;
   --secondary-font: #52DF91;
   --tertiary-font: #F099F8;
@@ -30,12 +19,13 @@
 body {
   overflow-x: hidden;
   background: var(--background-2);
-  margin: 80px auto;
+  margin: 0 auto;
+  padding-top: 0;
 }
 
 @media only screen and (max-width: 655px) {
   .container{
-    margin: 80px 40px;
+    margin: 0 40px;
   }
   .container .content .desktop{
     display: none;
@@ -44,7 +34,7 @@ body {
 
 @media only screen and (min-width: 656px) {
   .container{
-    margin: 80px auto;
+    margin: 0 auto;
     padding: 0 80px;
     max-width: 1200px;
   }
@@ -64,8 +54,15 @@ a{
 }
 
 /* Header */
+.header{
+  padding: 32px 0 16px;
+  position: sticky;
+  top: 0;
+  background: var(--background-2);
+}
+
 .header .branding img.logo{
-  height: 80px;
+  height: 72px;
 }
 
 @media only screen and (max-width: 655px) {
@@ -148,6 +145,7 @@ h1{
   padding: 0;
   line-height: 1;
   color: var(--primary-font);
+  text-shadow: 0px 0px 6px rgba(27, 13, 56, 0.3);
 }
 
 h2{
@@ -158,6 +156,7 @@ h2{
   padding: 0;
   line-height: 1.25;
   color: var(--primary-font);
+  text-shadow: 0px 0px 6px rgba(27, 13, 56, 0.3);
 }
 
 h3{
@@ -338,7 +337,6 @@ ol.emphasis{
 
 .content img.solution-end{
   border-bottom: 1px solid var(--grey);
-  padding-bottom: 64px;
   margin-bottom: 80px;
 }
 
@@ -402,7 +400,7 @@ ol.emphasis{
 
 .footer div.contact{
   max-width: 270px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
 }
 
 .footer a.contact{
