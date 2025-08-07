@@ -59,6 +59,7 @@ a{
   position: sticky;
   top: 0;
   background: var(--background-2);
+  z-index: 50;
 }
 
 .header .branding img.logo{
