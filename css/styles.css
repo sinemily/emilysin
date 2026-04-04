@@ -251,6 +251,15 @@ p.audio-caption{
   color: var(--primary-font);
 }
 
+p.compare{
+  font-family: 'Syne', sans-serif;
+  font-size: 1em;
+  color: var(--tertiary-font);
+  margin: 0;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
 ol.emphasis{
   font-weight: 700;
 }
@@ -291,6 +300,16 @@ ol.emphasis{
   font-weight: 300;
   max-width: 500px;
   margin: 0 auto;
+}
+
+.content p.research-quote{
+  font-family: 'Syne', sans-serif;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--tertiary-font);
 }
 
 .content .tools{

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emily Sin - Custom Figure Generation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Emily Sin's Design Portfolio">
+    <link rel="icon" href="assets/images/emily-favicon.png" type="image/png" sizes="25x25">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/css-vars-ponyfill@1"></script>
+    <script>
+      cssVars({
+        // ...
+      });
+    </script>
+  </head>
+
+  <body class="custom-figure-generation container">
+
+    <header class="header">
+        <div class="branding">
+          <a href="index.html">
+            <img class="logo" src="assets/images/emily-logo.svg" alt="Emily Logo" />
+          </a>
+        </div>
+        <nav class="site">
+          <ol class="unlist">
+            <li><a class="nav-link" href="index.html">Work</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+            <li><a class="nav-button" href="resume.html" target="blank">Resume</a></li>
+          </ol>
+        </nav>
+    </header>
+
+    <main class="content">
+
+      <h3>Custom Figure Generation</h3>
+      <h4>Impact</h4>
+      <ul>
+        <li>The beta release drove over 3,000 generations from 300 users within a single week.</li>
+        <li>Of nearly 200 feedback submissions, 76% of ratings were 4 or 5 out of 5, with 50% giving a perfect score.</li>
+        <li>Reduced figure creation time from hours to minutes.</li>
+      </ul>
+      <h4>Problem</h4>
+      <p class="middle">Creating scientific figures in BioRender is a time-intensive process, often taking scientists hours to produce visuals for presentations, posters, and publications. The goal is to get scientists to a final figure faster.</p>
+      
+      <h4>Solution</h4>
+      <p class="middle">Custom figure generation eliminates the manual work of building figures from scratch. By leveraging AI to propose layouts and offer alternatives, scientists can get to an optimized final figure faster.</p>
+      <h5 class="showcase">Keep the entry point familiar</h5>
+      <p class="middle showcase">The prompt input follows conventions users already know from other AI tools, with sample prompts and guidance on what to include so anyone can get started quickly.</p>
+      <img src="assets/images/fig-gen-entry-point.gif" alt="Entry Point" />
+      <h5 class="showcase">Give scientists meaningful choices</h5>
+      <p class="middle showcase">Three previews are generated, each optimized differently, so scientists can pick what works best for them while also helping surface which prompts produce the strongest results.</p>
+      <img src="assets/images/fig-gen-previews.gif" alt="Previews" />
+      <h5 class="showcase">Let scientists refine their figure</h5>
+      <p class="middle showcase">For adjustments that go beyond what manual editing can accomplish, scientists can re-prompt to make more targeted, meaningful changes to their figure.</p>
+      <img src="assets/images/fig-gen-modify-figure.gif" alt="Modify Figure" />
+      <h5 class="showcase">Give scientists immediate feedback</h5>
+      <p class="middle showcase">A non-editable preview is dropped onto the canvas instantly while the editable version generates in the background, giving scientists immediate feedback.</p>
+      <img class="solution-end" src="assets/images/fig-gen-add-to-canvas.gif" alt="Add to Canvas" />
+
+      <h4>My role</h4>
+      <p class="end">As the sole product designer on a team of 3 engineers and a medical illustrator, I owned the end-to-end design process as well as user research.</p>
+
+      <h4>Tools</h4>
+      <div class="tools">
+        <img src="assets/images/figma.png" alt="Figma" />
+        <img src="assets/images/claude.png" alt="Claude" />
+        <img src="assets/images/rally.png" alt="Rally" />
+        <img src="assets/images/marvin.png" alt="Marvin" />
+        <img src="assets/images/amplitude.png" alt="Amplitude" />
+      </div>
+
+      <h4>Approach</h4>
+      <p class="end">Prioritizing speed to get something in front of users quickly, I ran user research in parallel with the beta to stay competitive and iterated on findings as they came in.</p>
+
+      <h4>User Research Plan</h4>
+      <p class="middle">User research during the beta aimed to validate design decisions and assess tool quality and readiness for a broader release. I was looking to understand:</p>
+      <ol>
+        <li>How close were outputs to a final, publish-ready figure?</li>
+        <li>What did scientists expect in terms of editability, and how important was it to them?</li>
+        <li>If an editable version was available, would a flat image still have value?</li>
+        <li>With editability added, would scientists want to make edits by prompting?</li>
+        <li>What was the willingness to pay?</li>
+      </ol>
+      <p class="middle">I used a hybrid approach combining real beta usage with output examples and targeted questions.</p>
+      <img class="solution-end" src="assets/images/fig-gen-beta-demo.gif" alt="Beta Demo" />
+
+      <h4>User Research Findings</h4>
+      <h5>Scientists expect full editability and are willing to pay for it.</h5>
+      <p class="middle">Partial editability showed little perceived value. Scientists benchmarked willingness to pay at roughly 2x more for a fully editable output over a flat image, and even budget-conscious students indicated they'd pay for it within a subscription. The value proposition is tied to real structural control, not just text editing.</p>
+      <p class="middle research-quote">"I would spend the additional $2.50 to get full editability, after that I could modify each image by myself, change colors, size."</p>
+      <p class="middle research-quote">"Because me, I'm always changing things. I like to use the template tool and change stuff. So yes, I would spend extra for full editability."</p>
+      <p class="middle research-quote">"If I can't change the icons, then I would not bother to change the text."</p>
+      <p class="end"><b>Actionable takeaway:</b> Full structural editability has a clear willingness to pay signal. Text-only does not. Release text editability in beta at no additional cost as a way to test and learn, and hold off on charging credits until full editability is available.</p>
+      <h5>Scientists want to prompt big and edit small.</h5>
+      <p class="middle">Prompting is seen as the path for structural changes and first drafts, while manual editing handles small tweaks like colors and sizing. Nobody wanted prompting as their only refinement path, and even with full editability, users still wanted the option to reprompt for larger changes. Editability handles the final 20%; prompting handles the first 80%.</p>
+      <p class="middle research-quote">"I would just click and change the colours manually…maybe then AI could do the rest."</p>
+      <p class="middle research-quote">"Once it has the base, I'd just add it to the editor hoping I could click this thing and delete it and call it a day."</p>
+      <p class="middle research-quote">"Even with editability, I'd still want to prompt for icon substitutions I couldn't make manually."</p>
+      <p class="middle research-quote">"You'd want to get as close as possible with a prompt, but then do most of the final edits yourself? Yeah… yeah… yeah."</p>
+      <p class="end"><b>Actionable takeaway:</b> Support both prompting and manual edits.</p>
+      <h5>Set pricing expectations upfront, not mid-flow.</h5>
+      <p class="middle">Hidden costs were a major friction point. Scientists were willing to pay more upfront as long as they understood what they were getting. Charging for refinements and editability separately, after the fact, eroded trust and felt punitive.</p>
+      <p class="middle research-quote">"It's not just about full editability, but I feel like I'm ready to spend 20 credits on a single image as long as I can give it multiple prompts... if 20 credits covers everything, including allowing each component to be editable and allowing maybe a few extra prompts, then I want to really... if I'm paying 20 credits, I want to add a few prompts too."</p>
+      <p class="end"><b>Actionable takeaway:</b> Charge enough upfront and set expectations clearly. Don't introduce additional costs later in the flow.</p>
+      <h5>A fast non-editable preview has real standalone value, and scientists are willing to wait for editability.</h5>
+      <p class="middle">The non-editable preview acts as a confidence checkpoint before committing to the full generation. Some users would use it as-is for internal or draft work, and knowing what's coming made the wait for the editable version feel worthwhile.</p>
+      <p class="middle research-quote">"Having a preview non-editable would be nice. Then 10 minutes would be okay, because you know what you expect."</p>
+      <p class="middle research-quote">"I can wait minutes, even hours. If it's not generated I'll have to do it by hand anyway, so I'm going to save time."</p>
+      <p class="middle research-quote">"10 to 30 minutes would be okay. You'd fill the time with other stuff, go do an experiment, then come back.”</p>
+      <p class="end"><b>Actionable takeaway:</b> Two-stage model: instant non-editable preview, with the editable version rendering in the background.</p>
+  
+      <h4>Design Iterations</h4>
+      <h5>Editability and pricing were restructured</h5>
+      <p class="middle">Text editability, originally planned as a paid feature, was released as a free beta with credits held until full structural editability is available. Separate charges for refinements were also removed, consolidating costs upfront so scientists know what they are paying before they commit.</p>
+      <div class="comparison">
+        <div class="figure">
+          <p class="compare">Before</p>
+          <img src="assets/images/text-editability-before.png" alt="Text editability before" />
+        </div>
+        <div class="figure">
+          <p class="compare">After</p>
+          <img src="assets/images/text-editability-after.png" alt="Text editability after" />
+        </div>
+      </div>
+      <h5>Surfaced editing actions earlier in the flow</h5>
+      <p class="middle">To better support both prompting and manual editing, hover actions were made visible immediately on preview, rather than requiring scientists to select the preview first.</p>
+      <div class="comparison">
+        <div class="figure">
+          <p class="compare">Before</p>
+          <img src="assets/images/fig-gen-before-previews.gif" alt="Fig generation before previews" />
+        </div>
+        <div class="figure">
+          <p class="compare">After</p>
+          <img src="assets/images/fig-gen-after-previews.gif" alt="Fig generation after previews" />
+        </div>
+      </div>
+      <h5>Added a non-editable instant preview stage</h5>
+      <p class="middle">The original model asked scientists to choose between a flat or editable output upfront. Based on research findings, this was replaced with a two-stage model: an instant non-editable preview drops immediately, with the editable version rendering in the background.</p>
+      <div class="comparison">
+        <div class="figure">
+          <p class="compare">Before</p>
+          <img src="assets/images/fig-gen-direct-to-editable-before.gif" alt="Fig generation before direct to editable" />
+        </div>
+        <div class="figure">
+          <p class="compare">After</p>
+          <img src="assets/images/fig-gen-direct-to-editable-after.gif" alt="Fig generation after direct to editable" />
+        </div>
+      </div>
+      
+      <h4>Learnings</h4>
+      <h5>Ship fast, iterate with confidence</h5>
+      <p class="middle">Working on AI tooling meant getting comfortable releasing before things were fully polished, trusting that there would be room to come back and refine. With a competitive market and quality heavily tied to real usage, getting something in front of users quickly was more valuable than waiting for a perfect release.</p>
+      <h5>A faster pace changes how you work</h5>
+      <p class="middle">This project pushed a shift in working style, from iterating in cycles before releasing anything, to moving faster because implementation could keep pace with design decisions.</p>
+    </main>
+
+    <footer class="footer">
+      <h3>more projects</h3>
+      <div class="more-projects">
+        <a href="target-assessment.html">
+          <img src="assets/images/target-assessment.svg"/>
+        </a>
+        <a href="order-collaboration.html">
+          <img src="assets/images/order-collaboration.svg"/>
+        </a>
+        <a href="pcr-reagents.html">
+          <img src="assets/images/pcr-reagents.svg"/>
+        </a>
+        <a href="strategic-partnership.html">
+          <img src="assets/images/strategic-partnership.svg"/>
+        </a>
+        <a href="design-maturity-scorecard.html">
+          <img src="assets/images/design-maturity-scorecard.svg"/>
+        </a>
+        <a href="bom-versioning.html">
+          <img src="assets/images/bom-versioning.svg"/>
+        </a>
+      </div>
+
+      <h3>contact</h3>
+      <div class="contact">
+        <a class="contact" href="mailto:emily.w.sin@gmail.com"><img src="assets/images/email.svg"/><p>emily.w.sin@gmail.com</p></a>
+        <a class="contact" href="https://www.linkedin.com/in/emilysin/" target="blank"><img src="assets/images/linkedin.svg"/><p>linkedin.com/in/emilysin/</p></a>
+        <a class="contact" href="https://github.com/sinemily" target="blank"><img src="assets/images/github.svg"/><p>github.com/sinemily</p></a>
+        <a class="contact" href="https://www.youtube.com/emilysin" target="blank"><img src="assets/images/youtube.svg"/><p>youtube.com/emilysin</p></a>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

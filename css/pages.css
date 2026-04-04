@@ -352,3 +352,25 @@
   margin: 0;
   padding: 0 16px;
 }
+
+/* Custom Figure Generation */
+@media only screen and (min-width: 791px) {
+  .custom-figure-generation .content div.comparison{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .custom-figure-generation .content div.comparison div.figure{
+  width: 50%;
+  }
+}
+
+.custom-figure-generation .content div.comparison div.figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
